@@ -9,7 +9,7 @@ equipment enemies scorepowers maps
 Weapon | Rarity | Category | Damage | Attack Speed
 ------------- | ------------- | ------------- | ------------- | ------------- 
 Uzi Bolter  | Rare | Backup
-Katana  | Epic | Melee 
+Katana  | Legendary | Melee 
 
 
 ## Scorepowers
@@ -31,4 +31,5 @@ breastplate of righteousness | Legendary
 
 Enemy | Difficulty | Behaviour
 ------------- | ------------- | -------------
+Mind controlled civilian | Easy | Attacks players on sight
 Fallen angel | Very hard
