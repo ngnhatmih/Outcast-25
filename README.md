@@ -6,18 +6,18 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Uzi Bolter | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Weapon | Second Header |
+------------- | ------------- | -------------
+Uzi Bolter  | Content Cell | 
+Content Cell  | Content Cell | 
 
 
 ## Scorepowers
 
-First Header  | Second Header
+Power  | Second Header
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Grenade  | Content Cell
+Machine gun turret | Content Cell
 
 ## Equipment
 
