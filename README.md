@@ -6,7 +6,7 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Weapon | Second Header |
+Weapon | Second Header | Attack Speed
 ------------- | ------------- | -------------
 Uzi Bolter  | Content Cell | 
 Content Cell  | Content Cell | 
