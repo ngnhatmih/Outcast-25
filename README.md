@@ -8,7 +8,9 @@ equipment enemies scorepowers maps
 
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Short Shotgun | Common
 Street Knife | Common | Melee
+Machete | Uncommon
 Ak 47 | Rare | Primary
 Uzi Bolter  | Rare | One Handed  | Backup | 10 Damage per shot | 98 | 70
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
@@ -19,12 +21,14 @@ Sniper Barett | Legendary | Sniper
 ## Scorepowers
 
 Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown
-------------- | ------------- | ------------- | ------------- | -------------
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Grenade  | Common
 Land Mine | Uncommon
 Machine gun turret | Rare
 Rocket blaster turret | Legendary
+Radar | Legendary 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
+Heavenly Suit
 
 ## Equipment
 
@@ -36,9 +40,9 @@ breastplate of righteousness | Legendary
 
 ## Attachments
 
-Item | Upgrade 
-------------- | -------------
-Uzi Bolter | Feather Grip 
+Item | Upgrade | Rarity | Description
+------------- | ------------- | ------------- | -------------
+Uzi Bolter | Feather Grip | Legendary
 Katana 
 
 
@@ -49,3 +53,4 @@ Enemy | Difficulty | Behaviour | HP
 Mind controlled civilian | Easy | Attacks players on sight
 Satanist | Moderate
 Fallen angel | Very hard
+The Rockefeller | Boss
