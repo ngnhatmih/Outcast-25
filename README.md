@@ -38,7 +38,7 @@ breastplate of righteousness | Legendary
 
 Item | Upgrade 
 ------------- | -------------
-Uzi Bolter | 
+Uzi Bolter | Feather Grip 
 Katana 
 
 
