@@ -6,8 +6,8 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Weapon | Rarity | Category | Damage | Attack Speed
-------------- | ------------- | ------------- | ------------- | ------------- 
+Weapon | Rarity | Category | Damage | Attack Speed | Mobility
+------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Uzi Bolter  | Rare | Backup
 Katana  | Legendary | Melee 
 
@@ -27,9 +27,18 @@ Content Cell  | Content Cell
 Content Cell  | Content Cell
 breastplate of righteousness | Legendary
 
+## Attachments
+
+Item | Description
+------------- | -------------
+Uzi Bolter | One handed 
+Katana 
+
+
 ## AI Enemies 
 
-Enemy | Difficulty | Behaviour
-------------- | ------------- | -------------
+Enemy | Difficulty | Behaviour | HP
+------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight
+Satanist | Moderate
 Fallen angel | Very hard
