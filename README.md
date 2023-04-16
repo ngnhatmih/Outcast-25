@@ -6,18 +6,25 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Weapon | Rarity | Category | Damage | Attack Speed | Mobility
-------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Uzi Bolter  | Rare | Backup
-Katana  | Legendary | Melee 
-
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Street Knife | Common | Melee
+Ak 47 | Rare | Primary
+Uzi Bolter  | Rare | One Handed  | Backup | 10 Damage per shot | 98 | 70
+Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
+Butterfly Knife | Legendary | Melee
+Railgun | Legendary | Special
+Sniper Barett | Legendary | Sniper
 
 ## Scorepowers
 
-Power  | Rarity | Purpose 
-------------- | ------------- | ------------- 
-Grenade  | Content Cell
-Machine gun turret | Content Cell
+Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown
+------------- | ------------- | ------------- | ------------- | -------------
+Grenade  | Common
+Land Mine | Uncommon
+Machine gun turret | Rare
+Rocket blaster turret | Legendary
+Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 
 ## Equipment
 
@@ -29,9 +36,9 @@ breastplate of righteousness | Legendary
 
 ## Attachments
 
-Item | Description
+Item | Upgrade 
 ------------- | -------------
-Uzi Bolter | One handed 
+Uzi Bolter | 
 Katana 
 
 
