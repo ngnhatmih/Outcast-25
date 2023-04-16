@@ -6,22 +6,29 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Weapon | Second Header | Attack Speed
-------------- | ------------- | -------------
-Uzi Bolter  | Content Cell | 
-Content Cell  | Content Cell | 
+Weapon | Rarity | Category | Damage | Attack Speed
+------------- | ------------- | ------------- | ------------- | ------------- 
+Uzi Bolter  | Rare | Backup
+Katana  | Epic | Melee 
 
 
 ## Scorepowers
 
-Power  | Second Header
-------------- | -------------
+Power  | Rarity | Purpose 
+------------- | ------------- | ------------- 
 Grenade  | Content Cell
 Machine gun turret | Content Cell
 
 ## Equipment
 
-First Header  | Second Header
-------------- | -------------
+Armor  | Rarity | Shield
+------------- | ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+breastplate of righteousness | Legendary
+
+## AI Enemies 
+
+Enemy | Difficulty | Behaviour
+------------- | ------------- | -------------
+Fallen angel | Very hard
