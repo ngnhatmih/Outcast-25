@@ -11,37 +11,39 @@ and in
 
 From level | From Shop | From Leaderboard 
 ------------- | ------------- | ------------- 
-
+Private badge lev 1 
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun 
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------    
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
 Street Knife | Common | Melee
+Hunting Rifle | Common | Sniper
 Machete | Uncommon
 Ak 47 | Rare | Primary
-Double Prayer | Rare | Double blaster | Primary | 
-Uzi Bolter  | Rare | One Handed  | Backup | 10 Damage per shot | 98 | 70
+Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No
+Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
-Butterfly Knife | Legendary | Melee
+Butterfly Knife | Legendary | karambit | Melee 
 Railgun | Legendary | Special
-Sniper Barett | Legendary | Sniper
+Sniper Barett | Legendary | a sniper rifle | Sniper
 
 ## Scorepowers
 
 Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | Cost
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Healing | Common | Restore HP by 50% | 40 | Instant | 30 
-Land Mine | Uncommon
-Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage
+Radar | Common | Display everyone in map | 100 | 6 | 12 
+Landmine | Uncommon | Place a landmine that does explosive damage on hostiles who tramble it 600 | 120 | Up to 7 only | 30 
+Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage | 60
+Armor Plate | Uncommon | Restore 25% Shield | Instant
 Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
 Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
 Jetpack | Rare | Fly the skies | 175 | 20 | 27 
 Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
 Rocket gun turret | Legendary
-Blessing | Legendary | get a next kill with a headshot get 300 bonus SP 
-Radar | Legendary 
+Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 1000 | 40 | 80 
 
@@ -55,10 +57,10 @@ breastplate of righteousness | Legendary
 
 ## Attachments
 
-Item | Upgrade | Rarity | Description
-------------- | ------------- | ------------- | -------------
-Uzi Bolter | Feather Grip | Legendary 
-Katana | Tsuba | Legendary
+Item | Upgrade | Rarity | Description | Area | Bonus
+------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
+Katana | Tsuba | Legendary | 
 
 
 ## AI Enemies 
