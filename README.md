@@ -15,19 +15,20 @@ Private badge lev 1
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | 
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------    
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
 Street Knife | Common | Melee
-Hunting Rifle | Common | Sniper
+Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Machete | Uncommon
-Ak 47 | Rare | Primary
-Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No
+Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No
+Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Legendary | karambit | Melee 
 Railgun | Legendary | Special
 Sniper Barett | Legendary | a sniper rifle | Sniper
+
 
 ## Scorepowers
 
@@ -68,6 +69,7 @@ Katana | Tsuba | Legendary |
 Enemy | Difficulty | Behaviour | HP 
 ------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight | 40
+Mind controlled police | Moderate | Attacks players on sight | 100
 Hostile Army Soldier | Hard | Well equiped patrols | 400
 Satanist | Moderate | attacks as you are seen in view | 200
 Fallen angel | Very hard | Haunts and harass the player | 2500
@@ -76,5 +78,7 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Map | Gamemode | Size
-------------- | ------------- | ------------- 
+Map | Gamemode | Size | Event | Objective
+------------- | ------------- | ------------- | ------------- | -------------
+Exodus Anti Elite Military Base | Campaign 2 | Large | No 
+Red Canyon 
