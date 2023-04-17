@@ -15,13 +15,13 @@ Private badge lev 1
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------    
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
-Street Knife | Common | Melee
+Street Knife | Common | Melee | 50 | 72 | 80 | No | No | Yes | No | No | No 
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Machete | Uncommon
-Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No
+Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
@@ -80,5 +80,5 @@ The Rockefeller | Boss
 
 Map | Gamemode | Size | Event | Objective
 ------------- | ------------- | ------------- | ------------- | -------------
-Exodus Anti Elite Military Base | Campaign 2 | Large | No 
+Exodus Anti Elite Military Base | Campaign 2 | Large | No | kill all AI enemy
 Red Canyon 
