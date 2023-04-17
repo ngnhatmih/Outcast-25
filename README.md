@@ -72,3 +72,9 @@ Hostile Army Soldier | Hard | Well equiped patrols | 400
 Satanist | Moderate | attacks as you are seen in view | 200
 Fallen angel | Very hard | Haunts and harass the player | 2500
 The Rockefeller | Boss
+
+
+## Gamemodes and Maps
+
+Map | Gamemode
+------------- | ------------- | ------------- 
