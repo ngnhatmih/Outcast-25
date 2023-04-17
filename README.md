@@ -4,7 +4,7 @@ pixelated graphics unique mechanics good campaign
 plot and many multiplayer gamemodes many weapons
 equipment enemies scorepowers maps
 
-| Key | Symbol |
+| Action | Key |
 | --- | --- |
 | Jump | W |
 | Move | S |
