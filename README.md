@@ -76,5 +76,5 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Map | Gamemode
+Map | Gamemode | Size
 ------------- | ------------- | ------------- 
