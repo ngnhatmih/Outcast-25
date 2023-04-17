@@ -4,14 +4,25 @@ pixelated graphics unique mechanics good campaign
 plot and many multiplayer gamemodes many weapons
 equipment enemies scorepowers maps
 
-Badges are displayed in-game beside player name
-and in 
-
-## Badges 
-
-From level | From Shop | From Leaderboard 
-------------- | ------------- | ------------- 
-Private badge lev 1 
+| Key | Symbol |
+| --- | --- |
+| Jump | W |
+| Move | S |
+| Left | A |
+| Right | D |
+| Attack | Mouse Click |
+| Focus Scope | Right Click Hold | 
+| Primary | 1 | 
+| Backup | 2 |
+| Melee | 3 |
+| Special | 4 |
+| Sniper | 5 |
+| Heavy | 6 | 
+| Scorepower 1 | F | 
+| Scorepower 2 | X | 
+| Scorepower 3 | Z | 
+| Type message in chat | T | 
+| Open chat | C | 
 
 ## Weapons
 
@@ -65,9 +76,9 @@ Katana | Tsuba | Legendary |
 
 ## Skins
 
-Item | Skin | Rarity | Part
-------------- | ------------- | ------------- | -------------
-Ak 47 | green camo | Legendary | Base
+Item | Skin | Rarity | Part | Cost
+------------- | ------------- | ------------- | ------------- | ------------- 
+Ak 47 | green camo body | Legendary | Base
 
 ## AI Enemies 
 
