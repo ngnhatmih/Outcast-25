@@ -38,12 +38,12 @@ Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 dam
 Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
 Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
 Jetpack | Rare | Fly the skies | 175 | 20 | 27 
-Field Shield | Rare 
+Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
 Rocket gun turret | Legendary
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP 
 Radar | Legendary 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
-Heavenly Knight | Ancient
+Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 1000 | 40 | 80 
 
 ## Equipment
 
@@ -57,8 +57,8 @@ breastplate of righteousness | Legendary
 
 Item | Upgrade | Rarity | Description
 ------------- | ------------- | ------------- | -------------
-Uzi Bolter | Feather Grip | Legendary | 
-Katana 
+Uzi Bolter | Feather Grip | Legendary 
+Katana | Tsuba | Legendary
 
 
 ## AI Enemies 
@@ -66,6 +66,7 @@ Katana
 Enemy | Difficulty | Behaviour | HP 
 ------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight | 40
+Hostile Army Soldier | Hard | Well equiped patrols | 400
 Satanist | Moderate | attacks as you are seen in view | 200
 Fallen angel | Very hard | Haunts and harass the player | 2500
 The Rockefeller | Boss
