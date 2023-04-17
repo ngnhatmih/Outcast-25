@@ -37,11 +37,13 @@ Machete | Uncommon
 Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
+Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes | Yes | Yes | No
+M4a1 
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Legendary | karambit | Melee 
 Railgun | Legendary | Special
-Sniper Barett | Legendary | a sniper rifle | Sniper
-
+Sniper Barett | Legendary | a good sniper | Sniper | 127 
+Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
 ## Scorepowers
 
@@ -71,8 +73,9 @@ breastplate of righteousness | Legendary
 
 ## Attachments
 
-Item | Upgrade | Rarity | Description | Area | Bonus
-------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Item | Upgrade | Rarity | Description | Area | Bonus | Obtained
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 Katana | Tsuba | Legendary | 
 
@@ -100,3 +103,7 @@ Map | Gamemode | Size | Event | Objective
 ------------- | ------------- | ------------- | ------------- | -------------
 Exodus Anti Elite Military Base | Campaign 2 | Large | No | kill all AI enemy
 Red Canyon 
+
+## Collectibles
+
+------------- |
