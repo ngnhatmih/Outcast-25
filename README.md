@@ -4,14 +4,21 @@ pixelated graphics unique mechanics good campaign
 plot and many multiplayer gamemodes many weapons
 equipment enemies scorepowers maps
 
+## Badges 
+
+From level | From Shop | From Leaderboard 
+------------- | ------------- | ------------- 
+
+
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Short Shotgun | Common
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
 Street Knife | Common | Melee
 Machete | Uncommon
 Ak 47 | Rare | Primary
+Double Prayer | Rare | Double blaster | Primary | 
 Uzi Bolter  | Rare | One Handed  | Backup | 10 Damage per shot | 98 | 70
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Legendary | Melee
@@ -53,9 +60,9 @@ Katana
 
 ## AI Enemies 
 
-Enemy | Difficulty | Behaviour | HP
+Enemy | Difficulty | Behaviour | HP 
 ------------- | ------------- | ------------- | -------------
-Mind controlled civilian | Easy | Attacks players on sight
-Satanist | Moderate
-Fallen angel | Very hard
+Mind controlled civilian | Easy | Attacks players on sight | 40
+Satanist | Moderate | attacks as you are seen in view | 200
+Fallen angel | Very hard | Haunts and harass the player | 2500
 The Rockefeller | Boss
