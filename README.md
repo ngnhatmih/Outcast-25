@@ -20,15 +20,20 @@ Sniper Barett | Legendary | Sniper
 
 ## Scorepowers
 
-Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-Grenade  | Common
+Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | Cost
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Healing | Common | Restore HP by 50% | 40 | Instant | 30 
 Land Mine | Uncommon
-Machine gun turret | Rare
-Rocket blaster turret | Legendary
+Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage
+Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
+Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
+Jetpack | Rare | Fly the skies | 175 | 20 | 27 
+Field Shield | Rare 
+Rocket gun turret | Legendary
+Blessing | Legendary | get a next kill with a headshot get 300 bonus SP 
 Radar | Legendary 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
-Heavenly Suit
+Heavenly Knight | Ancient
 
 ## Equipment
 
@@ -42,7 +47,7 @@ breastplate of righteousness | Legendary
 
 Item | Upgrade | Rarity | Description
 ------------- | ------------- | ------------- | -------------
-Uzi Bolter | Feather Grip | Legendary
+Uzi Bolter | Feather Grip | Legendary | 
 Katana 
 
 
