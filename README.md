@@ -16,7 +16,7 @@ Private badge lev 1
 ## Weapons
 
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------    
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
 Street Knife | Common | Melee | 50 | 72 | 80 | No | No | Yes | No | No | No 
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
@@ -63,6 +63,11 @@ Item | Upgrade | Rarity | Description | Area | Bonus
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 Katana | Tsuba | Legendary | 
 
+## Skins
+
+Item | Skin | Rarity | Part
+------------- | ------------- | ------------- | -------------
+Ak 47 | green camo | Legendary | Base
 
 ## AI Enemies 
 
