@@ -12,6 +12,8 @@ equipment enemies scorepowers maps
 | Right | D |
 | Attack | Mouse Click |
 | Focus Scope | Right Click Hold | 
+| Pick Item Up | C | 
+| Interact | E | 
 | Primary | 1 | 
 | Backup | 2 |
 | Melee | 3 |
@@ -22,7 +24,7 @@ equipment enemies scorepowers maps
 | Scorepower 2 | X | 
 | Scorepower 3 | Z | 
 | Type message in chat | T | 
-| Open chat | C | 
+| Open chat | L | 
 
 ## Weapons
 
