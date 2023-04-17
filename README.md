@@ -4,6 +4,9 @@ pixelated graphics unique mechanics good campaign
 plot and many multiplayer gamemodes many weapons
 equipment enemies scorepowers maps
 
+Badges are displayed in-game beside player name
+and in 
+
 ## Badges 
 
 From level | From Shop | From Leaderboard 
