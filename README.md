@@ -145,6 +145,7 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64
+Catholic Pope Leader | Easy 
 Mind controlled police | Moderate | Attacks players on sight | 100
 Satanist | Moderate | attacks as soon as you are seen in view | 200
 Freemason | Hard
