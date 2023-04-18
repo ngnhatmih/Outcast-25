@@ -88,11 +88,21 @@ Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 29
 Yeshua's Strength | Ancient | Heal all ally in a great radius 
 Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
+## Scorepoints chart
+
+Action | Score | Description
+------------- | ------------- | -------------
+Kill | 15 | awarded after a kill
+Double Kill | 40 | awarded after a second kill within 3 seconds
+Third Kill | 80 | awarded after a third kill within 3 seconds
+Rocket Jump Kill | 30 | awarded after a rocket jump kill 
+
 ## Equipment
 
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
+Classic sunglasses 
 Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare 
 Sewn Metal  | Rare | Metal put together | Body | 500 
