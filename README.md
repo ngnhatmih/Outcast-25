@@ -12,6 +12,7 @@ equipment enemies scorepowers maps
 | Right | D |
 | Attack | Mouse Click |
 | Focus Scope | Right Click Hold | 
+| Weapon Ability | Q |
 | Pick Item Up | C | 
 | Interact | E | 
 | Primary | 1 | 
@@ -28,16 +29,17 @@ equipment enemies scorepowers maps
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
 Street Knife | Common | Melee | 50 | 72 | 80 | No | No | Yes | No | No | No 
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Machete | Uncommon
-Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330
+Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
-Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes | Yes | Yes | No
+Cutter Tohamawk | Rare | throw tohamawk | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
+Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 M4a1 
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Legendary | karambit | Melee 
@@ -99,10 +101,19 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Map | Gamemode | Size | Event | Objective
+Gamemode | Map | Size | Event | Objective
 ------------- | ------------- | ------------- | ------------- | -------------
-Exodus Anti Elite Military Base | Campaign 2 | Large | No | kill all AI enemy
-Red Canyon 
+Campaign | Red Canyon | 
+Team Fight | Warfare | Open action map | 16v16
+Flag Capture | Salvation Castle | No | No 
+Hardpoint 
+Arcade 
+Open World | Salvation Fields | a big map | No | Play
+Tower Defense | No | No | No | Play
+Clan Siege | Salvation Dawn | clans bases 500 yards away from another same direction who destroys their enemy base wins | Clan Flag
+Battle Royale | Solo | Medium Large Map | 50v50
+
+
 
 ## Collectibles
 
