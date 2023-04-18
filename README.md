@@ -40,19 +40,21 @@ Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Gam
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
-Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload | X Ray 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------   
+Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes 
+Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | No
 Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No 
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
 Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
-Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
+Pole Axe | Rare |  Actually cool | Melee | 100 | 64 | 70 | No | No | No | No | No | No 
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
+Ak 47 | Legendary | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
@@ -83,25 +85,31 @@ Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 290 | 980 | 60 | 70 | 2300 
+Yeshua's Strength | Ancient | Heal all ally in a great radius 
 Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
 ## Equipment
 
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
+Army Helmet | Rare 
 Sewn Metal  | Rare | Metal put together | Chestplate | 500 
-Content Cell  | Content Cell
+Metal Helmet  
+Balaclava | Legendary | stylish | Face
 breastplate of righteousness | Legendary
 
 ## Attachments
 
 Item | Upgrade | Rarity | Description | Area | Bonus | Obtained
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Short Shotgun | 2x zoom | Uncommon | increased range and Focus mode unlocked 
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked 
 Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
 Katana | Tsuba | Legendary | 
+Saber | Longer emitter | Ancient 
 
 ## Skins
 
@@ -119,7 +127,7 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Mind controlled civilian | Easy | Attacks players on sight | 40
+Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64
 Mind controlled police | Moderate | Attacks players on sight | 100
 Satanist | Moderate | attacks as soon as you are seen in view | 200
 Hostile Army Soldier | Hard | Well equiped patrols | 400
@@ -153,7 +161,6 @@ Steel Window | Can only be broken 500 HP | Singleplayer | No
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
 Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
-Spare Mag | low chance of drop after a kill | Item. Can be used as emergency magazine instant reload
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
 Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100% | Campaign Multiplayer | No
 
@@ -162,6 +169,7 @@ Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
 80 Gold coin | 1 dollar | No 
+10000 Gold coin | 100 dollar | No
 
 ## Levels
 
@@ -173,7 +181,7 @@ Level Rank | Reward | EXP Required
 2 Private 
 3 Private 
 4 Private
-5 
+5
 6
 7
 8
