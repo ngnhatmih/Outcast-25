@@ -62,6 +62,7 @@ Butterfly Knife | Slice Up | Legendary | karambit | Melee
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
 AWM | Legendary | a powerful | Sniper | 140 | 78 
+Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
 ## Scorepowers
@@ -106,9 +107,13 @@ Katana | Tsuba | Legendary |
 
 Item | Skin | Rarity | Cost
 ------------- | ------------- | ------------- | -------------
-Uzi Bolter | Desert Bolter | Rare 
-Ak 47 | green camo | Legendary
-
+Uzi Bolter | Desert Bolter | Rare | 100 Silver Coin
+Ak 47 | Green Line | Rare
+Rail Pistol | Kylie Rail Pistol | Legendary | 200 Gold Coin
+Saber | Purple Saber | Mythical | 800 Platinum Coin
+Saber | Green Saber | Mythical | 800 Platinum Coin
+Saber | Red Saber | Mythical | 800 Platinum Coin
+Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 ## AI Enemies 
 
@@ -116,7 +121,7 @@ Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight | 40
 Mind controlled police | Moderate | Attacks players on sight | 100
-Satanist | Moderate | attacks as you are seen in view | 200
+Satanist | Moderate | attacks as soon as you are seen in view | 200
 Hostile Army Soldier | Hard | Well equiped patrols | 400
 Hostile Helicopter | Hard | engages in sight aircraft | 1000 
 Fallen angel | Very hard | Haunts and harass the player | 2500
@@ -125,9 +130,9 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Gamemode | Map | Size | Event | Objective
-------------- | ------------- | ------------- | ------------- | -------------
-Campaign | Red Canyon 
+Gamemode | Map | Size | Event | Objective | Win Reward
+------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Campaign | Twin Towers | Large 
 Team Fight | Warfare 8v8 | Open action map | 16v16 | Get 50 kills 3min timer 
 Flag Capture 
 Point Capture 
@@ -143,9 +148,10 @@ Clan Siege
 Object | Description | Gamemodes | Limit
 ------------- | ------------- | ------------- | ------------- 
 Door | Press E to open can be opened by attacking or shooting | Singleplayer Multiplayer | No
-Steel Door | Can only be broken | Singleplayer Multiplayer | No
+Steel Door | Can only be broken 1000 HP | Singleplayer Multiplayer | No
+Steel Window | Can only be broken 500 HP | Singleplayer | No
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
-Ammo | found spawning randomly and from kill | Campaign Multiplayer
+Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Spare Mag | low chance of drop after a kill | Item. Can be used as emergency magazine instant reload
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
@@ -157,17 +163,17 @@ Offers | Price | Limited time
 ------------- | ------------- | -------------
 80 Gold coin | 1 dollar | No 
 
-## Level
+## Levels
 
 1 exp per kill
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
 1 Private | New badge unlocked | 20 
-2
-3
-4
-5
+2 Private 
+3 Private 
+4 Private
+5 
 6
 7
 8
