@@ -47,7 +47,8 @@ Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 |
 Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
-Cutter Tohamawk | Rare | throw tohamawk | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
+Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
+Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
@@ -61,8 +62,8 @@ Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No 
 
 ## Scorepowers
 
-Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | Cost
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Cost 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Healing | Common | Restore HP by 50% | 40 | Instant | 30 
 Radar | Common | Display everyone in map | 100 | 6 | 12 
 Landmine | Uncommon | Place a landmine that does explosive damage on hostiles who tramble it 600 | 120 | Up to 7 only | 30 
@@ -97,9 +98,11 @@ Katana | Tsuba | Legendary |
 
 ## Skins
 
-Item | Skin | Rarity | Part | Cost
-------------- | ------------- | ------------- | ------------- | ------------- 
-Ak 47 | green camo body | Legendary | Base
+Item | Skin | Rarity | Cost
+------------- | ------------- | ------------- | -------------
+Uzi Bolter | Sand warrior | Rare 
+Ak 47 | green camo | Legendary
+
 
 ## AI Enemies 
 
@@ -129,6 +132,10 @@ Battle Royale | Solo | Medium Large Map | 50v50
 
 
 
-## Collectibles
+## Collectibles And Interact
 
-------------- |
+Supply | Description | Gamemodes | Limit
+------------- | ------------- | ------------- | ------------- 
+Scroll's Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
+Ammo | found spawning randomly and from kill 
+Ammo Box | found at some map located random fills ammo till certain limit then cooldown 
