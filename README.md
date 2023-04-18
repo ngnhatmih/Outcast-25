@@ -93,8 +93,9 @@ Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
+Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare 
-Sewn Metal  | Rare | Metal put together | Chestplate | 500 
+Sewn Metal  | Rare | Metal put together | Body | 500 
 Metal Helmet  
 Balaclava | Legendary | stylish | Face
 breastplate of righteousness | Legendary
