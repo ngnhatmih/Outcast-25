@@ -84,8 +84,9 @@ Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive d
 Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
+Hand Lightning | Mythical
 Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 290 | 980 | 60 | 70 | 2300 
-Yeshua's Strength | Ancient | Heal all ally in a great radius 
+Yeshua's Strength | Ancient | Heal all ally in a great radius Full recover including armor | 600 | Instant | 60 | No | No | No 
 Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
 ## Scorepoints chart
