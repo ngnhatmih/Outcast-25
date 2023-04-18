@@ -16,11 +16,11 @@ equipment enemies scorepowers maps
 | Pick Item Up | C | 
 | Interact | E | 
 | Primary | 1 | Mouse Wheel | 
-| Backup | 2 |
-| Melee | 3 |
-| Special | 4 |
-| Sniper | 5 |
-| Heavy | 6 | 
+| Backup | 2 | Mouse Wheel | 
+| Melee | 3 | Mouse Wheel | 
+| Special | 4 | Mouse Wheel | 
+| Sniper | 5 | Mouse Wheel | 
+| Heavy | 6 |  Mouse Wheel | 
 | Scorepower 1 | F | 
 | Scorepower 2 | X | 
 | Scorepower 3 | Z | 
