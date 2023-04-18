@@ -84,8 +84,8 @@ Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from
 
 ## Equipment
 
-Wear  | Rarity | Description | Area | Armor 
-------------- | ------------- | ------------- | ------------- | ------------- 
+Wear  | Rarity | Description | Area | Armor | How to get
+------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Sewn Metal  | Rare | Metal put together | Chestplate | 500 
 Content Cell  | Content Cell
 breastplate of righteousness | Legendary
@@ -145,6 +145,11 @@ Ammo | found spawning randomly and from kill | Campaign and Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign and Multiplayer
 Spare Mag | low chance of drop after a kill | Item. Can be used as emergency magazine instant reload
 
+## Shop
+
+Offers | Price | Limited time 
+------------- | ------------- | -------------
+80 Gold coin | 1 dollar | No 
 
 ## Level
 
