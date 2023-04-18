@@ -94,15 +94,17 @@ Action | Score | Description
 ------------- | ------------- | -------------
 Kill | 15 | awarded after a kill
 Double Kill | 40 | awarded after a second kill within 3 seconds
-Third Kill | 80 | awarded after a third kill within 3 seconds
+Third Kill | 80 | awarded after a third kill within 2.80 seconds
+Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
 Rocket Jump Kill | 30 | awarded after a rocket jump kill 
+Healer | 5 | awarded after a 30% of healing to allies
 
 ## Equipment
 
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
-Classic sunglasses 
+Classic sunglasses | Common | how to look good | Eye | 20
 Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare 
 Sewn Metal  | Rare | Metal put together | Body | 500 
@@ -151,14 +153,13 @@ The Rockefeller | Boss
 
 Gamemode | Map | Size | Event | Objective | Win Reward
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Campaign | Twin Towers | Large 
-Team Fight | Warfare 8v8 | Open action map | 16v16 | Get 50 kills 3min timer 
+Campaign | Twin Towers | Large | find secret meanings | 
+Team Fight | Warfare 8v8 | Eygpt 8v8 | 16v16 | Get 50 kills 3min timer 
 Flag Capture 
 Point Capture 
 Arcade 
 Open World
 Tower Defense 
-Clan Siege
 
 
 
@@ -180,7 +181,7 @@ Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
 80 Gold coin | 1 dollar | No 
-10000 Gold coin | 100 dollar | No
+2000 Gold coin | 100 dollar | No
 
 ## Levels
 
