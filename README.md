@@ -49,13 +49,13 @@ Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 9
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Cutter Tohamawk | Rare | throw tohamawk | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
-M4a1 
+M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
-Butterfly Knife | Legendary | karambit | Melee 
-Railgun | Legendary | Special
+Butterfly Knife | Slice Up | Legendary | karambit | Melee 
+Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
@@ -91,6 +91,7 @@ Item | Upgrade | Rarity | Description | Area | Bonus | Obtained
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
+M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked 
 Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
 Katana | Tsuba | Legendary | 
 
