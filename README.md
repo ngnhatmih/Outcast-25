@@ -144,8 +144,10 @@ Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment
 Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64
 Mind controlled police | Moderate | Attacks players on sight | 100
 Satanist | Moderate | attacks as soon as you are seen in view | 200
+Freemason | Hard
 Hostile Army Soldier | Hard | Well equiped patrols | 400
 Hostile Helicopter | Hard | engages in sight aircraft | 1000 
+Illuminarti member | Very Hard
 Fallen angel | Very hard | Haunts and harass the player | 2500
 The Rockefeller | Boss
 
