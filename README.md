@@ -32,16 +32,17 @@ equipment enemies scorepowers maps
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 
-Street Knife | Common | Melee | 50 | 72 | 80 | No | No | Yes | No | No | No 
+Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No 
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 
-Machete | Uncommon
+Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
 Ak 47 | Rare | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Cutter Tohamawk | Rare | throw tohamawk | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 M4a1 
+Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
