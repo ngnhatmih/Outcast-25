@@ -4,8 +4,8 @@ pixelated graphics unique mechanics good campaign
 plot and many multiplayer gamemodes many weapons
 equipment enemies scorepowers maps
 
-| Action | Key |
-| --- | --- |
+| Action | Key | Second Key | 
+| --- | --- | --- |
 | Jump | W |
 | Move | S |
 | Left | A |
@@ -15,7 +15,7 @@ equipment enemies scorepowers maps
 | Weapon Ability | Q |
 | Pick Item Up | C | 
 | Interact | E | 
-| Primary | 1 | 
+| Primary | 1 | Mouse Wheel | 
 | Backup | 2 |
 | Melee | 3 |
 | Special | 4 |
