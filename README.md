@@ -27,6 +27,14 @@ equipment enemies scorepowers maps
 | Type message in chat | T | 
 | Open chat | L | 
 
+## Mechanics
+
+Mechanic | Description | Layout
+------------- | ------------- | ------------- |
+Weapons Category UI | can switch between weapons some weapon has delay | below down area
+Rocket Jump | if a explosion blast player goes flying or jump | Explosions
+Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in
+
 ## Weapons
 
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload
