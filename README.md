@@ -110,12 +110,13 @@ Ak 47 | green camo | Legendary
 
 ## AI Enemies 
 
-Enemy | Difficulty | Behaviour | HP 
-------------- | ------------- | ------------- | -------------
+Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Mind controlled civilian | Easy | Attacks players on sight | 40
 Mind controlled police | Moderate | Attacks players on sight | 100
 Satanist | Moderate | attacks as you are seen in view | 200
 Hostile Army Soldier | Hard | Well equiped patrols | 400
+Hostile Helicopter | Hard | engages in sight aircraft | 1000 
 Fallen angel | Very hard | Haunts and harass the player | 2500
 The Rockefeller | Boss
 
