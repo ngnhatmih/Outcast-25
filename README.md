@@ -83,6 +83,7 @@ Item | Upgrade | Rarity | Description | Area | Bonus | Obtained
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
+Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
 Katana | Tsuba | Legendary | 
 
 ## Skins
