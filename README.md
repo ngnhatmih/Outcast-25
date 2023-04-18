@@ -139,8 +139,9 @@ Clan Siege
 Object | Description | Gamemodes | Limit
 ------------- | ------------- | ------------- | ------------- 
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
-Ammo | found spawning randomly and from kill 
-Ammo Box | found at some map located random fills ammo till certain limit then cooldown 
+Ammo | found spawning randomly and from kill | Campaign and Multiplayer
+Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign and Multiplayer
+Spare Mag | low chance of drop after a kill | Item. Can be used as emergency magazine instant reload
 
 
 ## Level
