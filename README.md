@@ -21,6 +21,8 @@ equipment enemies scorepowers maps
 | Special | 4 | Mouse Wheel | 
 | Sniper | 5 | Mouse Wheel | 
 | Heavy | 6 |  Mouse Wheel | 
+| Item 1 | 7 |
+| Item 2 | 8 | 
 | Scorepower 1 | F | 
 | Scorepower 2 | X | 
 | Scorepower 3 | Z | 
@@ -55,7 +57,7 @@ M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
-Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
+Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
 Butterfly Knife | Slice Up | Legendary | karambit | Melee 
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
@@ -104,7 +106,7 @@ Katana | Tsuba | Legendary |
 
 Item | Skin | Rarity | Cost
 ------------- | ------------- | ------------- | -------------
-Uzi Bolter | Sand warrior | Rare 
+Uzi Bolter | Desert Bolter | Rare 
 Ak 47 | green camo | Legendary
 
 
@@ -141,11 +143,13 @@ Clan Siege
 Object | Description | Gamemodes | Limit
 ------------- | ------------- | ------------- | ------------- 
 Door | Press E to open can be opened by attacking or shooting | Singleplayer Multiplayer | No
+Steel Door | Can only be broken | Singleplayer Multiplayer | No
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
 Ammo | found spawning randomly and from kill | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Spare Mag | low chance of drop after a kill | Item. Can be used as emergency magazine instant reload
-
+Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
+Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100% | Campaign Multiplayer | No
 
 ## Shop
 
