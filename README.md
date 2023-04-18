@@ -58,6 +58,7 @@ Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Slice Up | Legendary | karambit | Melee 
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
+AWM | Legendary | a powerful | Sniper | 140 | 78 
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
 ## Scorepowers
@@ -82,9 +83,9 @@ Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from
 
 ## Equipment
 
-Armor  | Rarity | Shield
-------------- | ------------- | -------------
-Content Cell  | Content Cell
+Wear  | Rarity | Description | Area | Armor 
+------------- | ------------- | ------------- | ------------- | ------------- 
+Sewn Metal  | Rare | Metal put together | Chestplate | 500 
 Content Cell  | Content Cell
 breastplate of righteousness | Legendary
 
@@ -135,8 +136,14 @@ Clan Siege
 
 ## Collectibles And Interact
 
-Supply | Description | Gamemodes | Limit
+Object | Description | Gamemodes | Limit
 ------------- | ------------- | ------------- | ------------- 
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
 Ammo | found spawning randomly and from kill 
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown 
+
+
+## Level
+
+Level Rank | Reward | EXP Required
+------------ | ------------- | ------------- 
