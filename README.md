@@ -41,6 +41,7 @@ Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | 
 Cutter Tohamawk | Rare | throw tohamawk | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 M4a1 
+Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85
 Butterfly Knife | Legendary | karambit | Melee 
 Railgun | Legendary | Special
@@ -60,7 +61,7 @@ Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
 Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
 Jetpack | Rare | Fly the skies | 175 | 20 | 27 
 Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
-Rocket gun turret | Legendary
+Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive damage 300 | 
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 1000 | 40 | 80 
@@ -103,7 +104,7 @@ The Rockefeller | Boss
 
 Gamemode | Map | Size | Event | Objective
 ------------- | ------------- | ------------- | ------------- | -------------
-Campaign | Red Canyon | 
+Campaign | Red Canyon 
 Team Fight | Warfare | Open action map | 16v16
 Flag Capture | Salvation Castle | No | No 
 Hardpoint 
