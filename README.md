@@ -36,7 +36,7 @@ Weapons Category UI | can switch between weapons some weapon has delay | below d
 Rocket Jump | if a explosion blast player goes flying or jump | Explosions
 Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in
 Breaking Environment | And they drop resources | All Gamemodes
-Climbing | Some weapons like Justice Claw can attach on to buildings and walls | jump and Attack on a wall or building 
+Climbing | Some weapons like Claw can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
 
@@ -61,6 +61,7 @@ Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
 Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
+Throwing Knives | Uncommon | throw knife | Special | 50 | 77 | 85 | 10 | No | Yes | No | Yes | No
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Pole Axe | Rare |  Actually cool | Melee | 100 | 64 | 70 | No | No | No | No | No | No 
@@ -77,7 +78,7 @@ Butterfly Knife | Slice Up | Legendary | karambit | Melee
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
-Claws | Mythical | Very dangerous | Melee
+Claw | Mythical | Very dangerous | Melee | 480 | 98 | 
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
 
 ## Scorepowers
@@ -112,6 +113,7 @@ Kill Assist | 10 | awarded after a kill contribute
 Kill | 15 | awarded after a kill
 Reject satanists | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
+Robot Kill | 20 | awarded after killing a robot machine
 Armor Break | 25 | awarded after destroying a players armor
 Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
@@ -138,13 +140,14 @@ breastplate of righteousness | Legendary
 
 ## Attachments
 
-Item | Upgrade | Rarity | Description | Area | Bonus | Obtained
+Item | Upgrade | Rarity | Description | Area | Bonus | Obtained from
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Short Shotgun | 2x zoom | Uncommon | increased range and Focus mode unlocked 
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked 
 Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
+Claw | Second Claw | Mythical | can attach on buildings and objects and move quicker on them faster and 2x damage | Other Hand | 2x damage
 Katana | Tsuba | Legendary 
 Saber | Longer emitter | Ancient | Melee Range Increase 70 
 Jacket | Ammo Belt | Rare | Items unlocked 
