@@ -96,12 +96,16 @@ Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from
 
 Action | Score | Description
 ------------- | ------------- | -------------
+Healer | 5 | awarded after healing a ally
+Kill Assist | 10 | awarded after a kill contribute
 Kill | 15 | awarded after a kill
-Double Kill | 40 | awarded after a second kill within 3 seconds
+Scientist | 30 | awarded after using weapon ability
+Turret Kill | 35 | awarded after destroying a machine gun turret
+Rocket Jump Kill | 40 | awarded after a rocket jump kill 
+Double Kill | 45 | awarded after a second kill within 3 seconds
+Bird Down | 60 | awarded after a helicopter destroy
 Third Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
-Rocket Jump Kill | 30 | awarded after a rocket jump kill 
-Healer | 5 | awarded after a 30% of healing to allies
 
 ## Equipment
 
@@ -110,7 +114,7 @@ Wear  | Rarity | Description | Area | Armor | How to get
 Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
 Classic sunglasses | Common | how to look good | Eye | 20
 Jacket | Uncommon | good design 5 more capacity | Body
-Army Helmet | Rare 
+Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
 Metal Helmet  
 Balaclava | Legendary | stylish | Face
