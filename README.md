@@ -43,12 +43,12 @@ Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Gam
 
 ## Crafting
 
-Craft weapons and Items in game battlefield
+Craft weapons and Items in game map
 
-Crafting | Cost 
-------------- | ------------- 
-Wood Wall | 6 wood 
-Stone Wall | 12 stone
+Crafting | Cost | Quanity 
+------------- | ------------- | -------------
+Wood Wall | 6 wood | 4 
+Stone Wall | 12 stone | 2 
 Armor Plate | 5 Iron Bar
 
 
