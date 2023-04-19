@@ -99,6 +99,7 @@ Action | Score | Description
 Healer | 5 | awarded after healing a ally
 Kill Assist | 10 | awarded after a kill contribute
 Kill | 15 | awarded after a kill
+Rocket Kill | 20 | awarded after destroying a rocket projectile
 Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
 Rocket Jump Kill | 40 | awarded after a rocket jump kill 
@@ -130,8 +131,8 @@ Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total ca
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked 
 Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
-Katana | Tsuba | Legendary | 
-Saber | Longer emitter | Ancient 
+Katana | Tsuba | Legendary 
+Saber | Longer emitter | Ancient | Melee Range Increase 70 
 Cowboy Hat | Sheriff Badge | Legendary 
 
 ## Skins
