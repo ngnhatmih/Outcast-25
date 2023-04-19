@@ -36,6 +36,7 @@ Mechanic | Description | Layout
 Weapons Category UI | can switch between weapons some weapon has delay | below down area
 Rocket Jump | if a explosion blast player goes flying or jump | Explosions
 Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in
+Climbing | Some weapons like Justice Claw can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
 
