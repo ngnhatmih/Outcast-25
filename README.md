@@ -36,9 +36,19 @@ Mechanic | Description | Layout
 Weapons Category UI | can switch between weapons some weapon has delay | below down area
 Rocket Jump | if a explosion blast player goes flying or jump | Explosions
 Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in
+Breaking Environment | And they drop resources | All Gamemodes
 Climbing | Some weapons like Justice Claw can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
+
+## Crafting
+
+Craft weapons and Items in game battlefield
+
+Crafting | Cost 
+------------- | ------------- 
+Armor Plate | 5 Iron Bar
+
 
 ## Weapons
 
@@ -68,8 +78,6 @@ Sniper Barett | Legendary | a good sniper | Sniper | 127
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
 Justice Claws | Mythical | Very dangerous | Melee
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
-Cyber Exterminator | Ancient | laser ignores armor
-Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
 ## Scorepowers
 
@@ -92,8 +100,8 @@ Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Hand Lightning | Mythical spawn lighting from hand
 Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 290 | 980 | 60 | 70 | 2300 
-Yeshua's Strength | Ancient | Heal all ally in a great radius Full recover including armor | 600 | Instant | 60 | No | No | No 
-Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
+Yeshua's Strength | Mythical | Heal all ally in a great radius Full recover including armor | 600 | Instant | 60 | No | No | No 
+Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
 ## Scorepoints chart
 
@@ -153,8 +161,8 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 ## AI Enemies 
 
-Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment 
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment | Useful drops
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64
 Catholic Pope Leader | Easy 
 Mind controlled police | Moderate | Attacks players on sight | 100
@@ -180,16 +188,15 @@ Point Capture
 Tower Defense
 Ranked Apocalpse 
 
-
 ## Collectibles And Interact
 
-Object | Description | Gamemodes | Limit
+Object | Description | Gamemodes | Useful Drops
 ------------- | ------------- | ------------- | ------------- 
-Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer | 1 Per Campaign Level
+Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer | Gets sent to Quotes in the main menu after pressing Okay
 Door | Press E to open can be opened by attacking or shooting | Singleplayer Multiplayer | No
 Steel Door | Can only be broken 1000 HP | Singleplayer Multiplayer | No
 Steel Window | Can only be broken 500 HP | Singleplayer | No
-Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign | One per Level
+Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign 
 Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
