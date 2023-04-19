@@ -63,11 +63,10 @@ Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
 Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
-Throwing Knives | Uncommon | throw knife | Special | 50 | 77 | 85 | 10 | No | Yes | No | Yes | No
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
-Pole Axe | Rare | Actually cool | Melee | 100 | 64 | 70 | No | No | No | No | No | No 
-Club Bat | Rare | Hit them over | Melee 
+Pole Axe | Rare | Actually cool | Melee | 190 | 64 | 70 | No | No | No | No | No | No 
+Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
@@ -163,6 +162,7 @@ Item | Skin | Rarity | Cost
 Uzi Bolter | Desert Bolter | Rare | 100 Silver Coin
 Ak 47 | Green Line | Rare
 Rail Pistol | Kylie Rail Pistol | Legendary | 200 Gold Coin
+Saber | Yellow Saber | Mythical | 800 Platinum Coin
 Saber | Purple Saber | Mythical | 800 Platinum Coin
 Saber | Green Saber | Mythical | 800 Platinum Coin
 Saber | Red Saber | Mythical | 800 Platinum Coin
