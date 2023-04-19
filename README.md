@@ -106,6 +106,7 @@ Double Kill | 45 | awarded after a second kill within 3 seconds
 Bird Down | 60 | awarded after a helicopter destroy
 Third Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
+Mecha Kill | 500 | awarded after destroying a Heavenly Knight
 
 ## Equipment
 
