@@ -44,12 +44,14 @@ Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Gam
 
 Craft weapons and Items in game map
 
-Crafting | Cost | Quanity 
-------------- | ------------- | -------------
-Wood Wall | 6 wood | 4 
+Crafting | Cost | Description | Quanity crafted | Limit in items slot | HP | Attack
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Wood Wall | 6 wood | Cheapest and stops | 4 | 10 | 240 | No
 Stone Wall | 12 stone | 2 
-Armor Plate | 5 Iron Bar
-
+Iron Wall | 8 iron | they will get headached
+Armor Plate | 5 iron | repairs 25% of armor | 1 | 3
+Shurikens | 1 steel | very fast travel time and bleed damage | 1
+Fire Shurikens | 1 shuriken | very fast travel time and fire damage
 
 ## Weapons
 
@@ -64,7 +66,8 @@ Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 |
 Throwing Knives | Uncommon | throw knife | Special | 50 | 77 | 85 | 10 | No | Yes | No | Yes | No
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
-Pole Axe | Rare |  Actually cool | Melee | 100 | 64 | 70 | No | No | No | No | No | No 
+Pole Axe | Rare | Actually cool | Melee | 100 | 64 | 70 | No | No | No | No | No | No 
+Club Bat | Rare | Hit them over | Melee 
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
@@ -102,7 +105,7 @@ Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Hand Lightning | Mythical spawn lighting from hand
 Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 290 | 980 | 60 | 70 | 2300 
-Yeshua's Strength | Mythical | Heal all ally in a great radius Full recover including armor | 600 | Instant | 60 | No | No | No 
+Yeshua's Strength | Mythical | Heal all ally Full recover including armor | 600 | Instant | 60 | No | No | No 
 Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
 ## Scorepoints chart
@@ -110,6 +113,7 @@ Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons fro
 Action | Score | Description
 ------------- | ------------- | -------------
 Kill Assist | 10 | awarded after a kill contribute
+Alert | 30 | awarded after a second kill assist contribute within 3 seconds
 Kill | 15 | awarded after a kill
 Reject satanists | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
@@ -209,9 +213,15 @@ Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100
 
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
-Starter Pack
 80 Gold coin | 1 dollar | No 
 2000 Gold coin | 100 dollar | No
+
+## Player Profiles
+
+Design | Description | Layout
+------------ | ------------ | ------------
+Badge | Displayed Badge next to player name | top
+Level | Player level shown | on the right side
 
 ## Levels
 
@@ -219,8 +229,8 @@ Starter Pack
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1 Newbie | New badge unlocked | 20 
-2  
+1 New | New badge unlocked and displayed | 20 
+2 
 3
 4
 5
