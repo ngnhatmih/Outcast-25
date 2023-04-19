@@ -185,8 +185,6 @@ Campaign
 Campaign CO-OP 
 Arcade
 Team Fight
-Flag Capture 
-Point Capture 
 Tower Defense
 Ranked Apocalpse 
 
