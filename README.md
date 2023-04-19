@@ -65,7 +65,7 @@ Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
 Butterfly Knife | Slice Up | Legendary | karambit | Melee 
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
-AWM | Legendary | a powerful | Sniper | 140 | 78 
+AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
 Justice Claws | Mythical | Very dangerous | Melee
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
@@ -105,6 +105,7 @@ Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
 Rocket Jump Kill | 40 | awarded after a rocket jump kill 
 Double Kill | 45 | awarded after a second kill within 3 seconds
+Bird Wannabe | 50 | awarded after a jetpack kill
 Bird Down | 60 | awarded after a helicopter destroy
 Third Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
