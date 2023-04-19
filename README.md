@@ -169,16 +169,16 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Gamemode | Map | Size | Event | Objective | Win Reward
+Gamemode | Map | Description | Information | Event | Win Reward
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Campaign 
+Campaign CO-OP 
 Arcade
 Team Fight
 Flag Capture 
 Point Capture 
-Open World
-Tower Defense 
-
+Tower Defense
+Ranked Apocalpse 
 
 
 ## Collectibles And Interact
