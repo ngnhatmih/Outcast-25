@@ -22,7 +22,6 @@ equipment enemies scorepowers maps
 | Sniper | 5 | Mouse Wheel | 
 | Heavy | 6 |  Mouse Wheel | 
 | Item Bag | 7 |
-| Item Fast Select | 8 | 
 | Scorepower 1 | F | 
 | Scorepower 2 | X | 
 | Scorepower 3 | Z | 
