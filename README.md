@@ -68,9 +68,12 @@ Sniper Barett | Legendary | a good sniper | Sniper | 127
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
 Justice Claws | Mythical | Very dangerous | Melee
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
+Cyber Exterminator | Ancient | laser ignores armor
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
 ## Scorepowers
+
+Equip up to 3 
 
 Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | Cost 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
@@ -96,11 +99,11 @@ Heavenly Knight | Ancient | summon into a powerful Godly armour and weapons from
 
 Action | Score | Description
 ------------- | ------------- | -------------
-Healer | 5 | awarded after healing a ally
 Kill Assist | 10 | awarded after a kill contribute
 Kill | 15 | awarded after a kill
 Reject satanists | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
+Armor Break | 25 | awarded after destroying a players armor
 Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
 Rocket Jump Kill | 40 | awarded after a rocket jump kill 
@@ -109,7 +112,7 @@ Bird Wannabe | 50 | awarded after a jetpack kill
 Bird Down | 60 | awarded after a helicopter destroy
 Third Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
-Mecha Kill | 500 | awarded after destroying a Heavenly Knight
+Mech Kill | 500 | awarded after destroying a Heavenly Knight
 
 ## Equipment
 
