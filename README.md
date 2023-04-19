@@ -66,7 +66,7 @@ Butterfly Knife | Slice Up | Legendary | karambit | Melee
 Railgun | Legendary | Big Blast | Special |  | 67
 Sniper Barett | Legendary | a good sniper | Sniper | 127 
 AWM | Legendary | a powerful | Sniper | 140 | 78 
-Justice Claw | Mythical | Very dangerous | Melee
+Justice Claws | Mythical | Very dangerous | Melee
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
 Laser Sheriff | Ancient | laser carbine rifle | Sniper | 184 | 76 | 75 | 5 | No | Yes | No | No
 
