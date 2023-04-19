@@ -84,7 +84,7 @@ Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 
 Jetpack | Rare | Fly the skies | 175 | 20 | 27 | 1000 | No | No 
 Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
 Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive damage 300 | 
-Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
+Ally Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Hand Lightning | Mythical spawn lighting from hand
@@ -134,7 +134,7 @@ M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked
 Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
 Katana | Tsuba | Legendary 
 Saber | Longer emitter | Ancient | Melee Range Increase 70 
-Cowboy Hat | Sheriff Badge | Legendary 
+Jacket | Ammo Belt | Rare | Items unlocked 
 
 ## Skins
 
@@ -168,11 +168,11 @@ The Rockefeller | Boss
 
 Gamemode | Map | Size | Event | Objective | Win Reward
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Campaign | Twin Towers | Large | find secret meanings | 
-Team Fight | Warfare 8v8 | Eygpt 8v8 | 16v16 | Get 50 kills 3min timer 
+Campaign 
+Arcade
+Team Fight
 Flag Capture 
 Point Capture 
-Arcade 
 Open World
 Tower Defense 
 
@@ -196,6 +196,7 @@ Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100
 
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
+Starter Pack
 80 Gold coin | 1 dollar | No 
 2000 Gold coin | 100 dollar | No
 
@@ -205,10 +206,10 @@ Offers | Price | Limited time
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1 Private | New badge unlocked | 20 
-2 Private 
-3 Private 
-4 Private
+1 Newbie | New badge unlocked | 20 
+2  
+3
+4
 5
 6
 7
