@@ -42,8 +42,8 @@ Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Gam
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload | X Ray 
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------   
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload | X Ray | Burn Damage | Poison Damage | Bleed Damage
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes 
 Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | No
 Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No 
@@ -99,6 +99,7 @@ Action | Score | Description
 Healer | 5 | awarded after healing a ally
 Kill Assist | 10 | awarded after a kill contribute
 Kill | 15 | awarded after a kill
+Reject satanists | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
 Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
