@@ -78,10 +78,10 @@ Healing | Common | Restore HP by 50% | 40 | Instant | 30
 Radar | Common | Display everyone in map | 100 | 6 | 12 
 Landmine | Uncommon | Place a landmine that does explosive damage on hostiles who tramble it 600 | 120 | Up to 7 only | 30 
 Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage | 60
-Armor Plate | Uncommon | Restore 25% Shield | Instant
+Armor Plate | Uncommon | Restore 25% Shield | Instant | 8 | No | No | No 
 Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
 Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
-Jetpack | Rare | Fly the skies | 175 | 20 | 27 
+Jetpack | Rare | Fly the skies | 175 | 20 | 27 | 1000 | No | No 
 Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
 Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive damage 300 | 
 Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
@@ -118,7 +118,6 @@ Classic sunglasses | Common | how to look good | Eye | 20
 Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
-Metal Helmet  
 Balaclava | Legendary | stylish | Face
 breastplate of righteousness | Legendary
 
@@ -181,6 +180,7 @@ Tower Defense
 
 Object | Description | Gamemodes | Limit
 ------------- | ------------- | ------------- | ------------- 
+Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer | 1 Per Campaign Level
 Door | Press E to open can be opened by attacking or shooting | Singleplayer Multiplayer | No
 Steel Door | Can only be broken 1000 HP | Singleplayer Multiplayer | No
 Steel Window | Can only be broken 500 HP | Singleplayer | No
