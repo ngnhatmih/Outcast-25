@@ -53,8 +53,8 @@ Armor Plate | 5 Iron Bar
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload | X Ray | Laser |  Burn Damage | Poison Damage | Bleed Damage | Speciality
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Sniper | Range | Reload | X Ray | Laser | Burn Damage | Poison Damage | Bleed Damage | Speciality
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes 
 Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | No
 Street Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No 
