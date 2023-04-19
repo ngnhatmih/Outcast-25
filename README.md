@@ -78,7 +78,7 @@ Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | 
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
 Butterfly Knife | Slice Up | Legendary | karambit | Melee 
 Railgun | Legendary | Big Blast | Special |  | 67
-Sniper Barett | Legendary | a good sniper | Sniper | 127 
+Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
 Claw | Mythical | Very dangerous | Melee | 480 | 98 | 
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No
@@ -114,7 +114,7 @@ Action | Score | Description
 Kill Assist | 10 | awarded after a kill contribute
 Alert | 30 | awarded after a second kill assist contribute within 3 seconds
 Kill | 15 | awarded after a kill
-Reject satanists | 20 | awarded after a satanist AI kill
+Killed satanist | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
 Robot Kill | 20 | awarded after killing a robot machine
 Armor Break | 25 | awarded after destroying a players armor
@@ -153,14 +153,14 @@ Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion gre
 Claw | Second Claw | Mythical | can attach on buildings and objects and move quicker on them faster and 2x damage | Other Hand | 2x damage
 Katana | Tsuba | Legendary 
 Saber | Longer emitter | Ancient | Melee Range Increase 70 
-Jacket | Ammo Belt | Rare | Items unlocked 
+Jacket | Ammo Belt | Rare
 
 ## Skins
 
 Item | Skin | Rarity | Cost
 ------------- | ------------- | ------------- | -------------
 Uzi Bolter | Desert Bolter | Rare | 100 Silver Coin
-Ak 47 | Green Line | Rare
+Ak 47 | Green Camo | Rare | 100 Silver Coin
 Rail Pistol | Kylie Rail Pistol | Legendary | 200 Gold Coin
 Saber | Yellow Saber | Mythical | 800 Platinum Coin
 Saber | Purple Saber | Mythical | 800 Platinum Coin
