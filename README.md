@@ -158,7 +158,8 @@ Saber | Longer emitter | Mythical | Melee Range Increase 70
 
 Vehicle | Description | HP | Damage
 ------------- | ------------- | ------------- | ------------- 
-
+Car
+Helicopter
 
 ## Skins
 
@@ -222,9 +223,10 @@ Offers | Price | Limited time
 
 ## Achievement Trophys
 
-Achievement | Trophy
-------------- | -------------
-
+Achievement | Description | Trophy
+------------- | ------------- | -------------
+The Great Reset 
+The Rockefeller
 
 
 ## Player Profiles
