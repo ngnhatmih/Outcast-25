@@ -1,0 +1,12 @@
+GOALS:
+
+1. Design and develop a 2D game engine with pysdl2 and OpenGL (with shaders).
+2. Filesystem: File loading, Resources management, File watching, File/Resources persistency.
+2. Component System: GameObjects, GameObjects, Hierarchy, Inspector.
+3. Rendering: Shaders, Debug shapes, Gizmos, Sprites, Layer management.
+4. Scripting.
+5. Physics: Box2D implementation, Concave shape management, Shapes editing.
+6. UI: Text rendering, Canvas and scaling, UI Widgets.
+7. Build: Game / Engine logic separation, Deployment
+8. The ability to easily create builds targeting the Windows platform
+9. Create one or two simple games to demonstrate the capabilities of the engine
