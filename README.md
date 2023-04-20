@@ -11,7 +11,7 @@ equipment enemies scorepowers maps
 | Left | A |
 | Right | D |
 | Attack | Mouse Click |
-| Focus Scope | Right Click Hold | 
+| Focus | Right Click Hold | 
 | Weapon Ability | Q |
 | Pick Item Up | C | 
 | Interact | E | 
@@ -50,7 +50,7 @@ Wood Wall | 6 wood | Cheapest and stops | 4 | 10 | 240 | No
 Stone Wall | 12 stone | 2 
 Iron Wall | 8 iron | they will get headached
 Armor Plate | 5 iron | repairs 25% of armor | 1 | 3
-Shurikens | 1 steel | very fast travel time and bleed damage | 1
+Shurikens | 3 steel | very fast travel time and bleed damage | 1
 Fire Shurikens | 1 shuriken | very fast travel time and fire damage
 
 ## Weapons
@@ -103,7 +103,6 @@ Ally Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 5
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Hand Lightning | Mythical spawn lighting from hand
-Sticky Turret | Mythical | Deploy a turret in anywhere that does laser damage 290 | 980 | 60 | 70 | 2300 
 Yeshua's Strength | Mythical | Heal all ally Full recover including armor | 600 | Instant | 60 | No | No | No 
 Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
 
@@ -118,11 +117,13 @@ Killed satanist | 20 | awarded after a satanist AI kill
 Rocket Kill | 20 | awarded after destroying a rocket projectile
 Robot Kill | 20 | awarded after killing a robot machine
 Armor Break | 25 | awarded after destroying a players armor
+Headshot | 30 | awarded after a headshot kill
 Scientist | 30 | awarded after using weapon ability
 Turret Kill | 35 | awarded after destroying a machine gun turret
+Man of God | 40 | awarded after praying
 Rocket Jump Kill | 40 | awarded after a rocket jump kill 
 Double Kill | 45 | awarded after a second kill within 3 seconds
-Bird Wannabe | 50 | awarded after a jetpack kill
+Bird Kill | 50 | awarded after a jetpack kill
 Bird Down | 60 | awarded after a helicopter destroy
 Third Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
@@ -134,12 +135,10 @@ Mech Kill | 500 | awarded after destroying a Heavenly Knight
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
-Classic sunglasses | Common | how to look good | Eye | 20
-Jacket | Uncommon | good design 5 more capacity | Body
+Flak Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
-Balaclava | Legendary | stylish | Face
-breastplate of righteousness | Legendary
+Steel Cuirass | Legendary | Protects front and back | Body
 
 ## Attachments
 
@@ -148,12 +147,13 @@ Item | Upgrade | Rarity | Description | Area | Bonus | Obtained from
 Short Shotgun | 2x zoom | Uncommon | increased range and Focus mode unlocked 
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
-M4a1 | Grenade Launcher | Ancient | Weapon ability unlocked 
-Ak 74 | Grenade Barrel | Mythical | Weapon ability unlocked fire a explosion grenade | Barrel | Weapon Ability
+M4a1 | Grenade Launcher | Mythical | Weapon ability unlocked 
+Ak 74 | Grenade Launcher | Mythical | Weapon ability unlocked | Barrel | Weapon Ability
 Claw | Second Claw | Mythical | can attach on buildings and objects and move quicker on them faster and 2x damage | Other Hand | 2x damage
 Katana | Tsuba | Legendary 
-Saber | Longer emitter | Ancient | Melee Range Increase 70 
-Jacket | Ammo Belt | Rare
+Saber | Longer emitter | Mythical | Melee Range Increase 70 
+
+
 
 ## Vehicles
 
@@ -178,8 +178,7 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment | Useful drops
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64
-Catholic Pope Leader | Easy 
+Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64 | Knife | Knife 
 Mind controlled police | Moderate | Attacks players on sight | 100
 Satanist | Moderate | attacks as soon as you are seen in view | 200
 Freemason | Hard
@@ -192,35 +191,37 @@ The Rockefeller | Boss
 
 ## Gamemodes and Maps
 
-Gamemode | Map | Description | Information | Event | Win Reward
+Gamemode | Map | Description | Objective | Event | Win Reward
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Campaign 
+Campaign
+Campaign
+Campaign
+Campaign
+Campaign
 Campaign CO-OP 
 Arcade
 Team Fight
 Tower Defense
 Ranked Apocalpse 
 
-## Collectibles And Interact
+## Collectibles
 
-Object | Description | Gamemodes | Useful Drops
-------------- | ------------- | ------------- | ------------- 
-Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer | Gets sent to Quotes in the main menu after pressing Okay
-Door | Press E to open can be opened by attacking or shooting | Singleplayer Multiplayer | No
-Steel Door | Can only be broken 1000 HP | Singleplayer Multiplayer | No
-Steel Window | Can only be broken 500 HP | Singleplayer | No
+Items | Description | Gamemodes 
+------------- | ------------- | -------------
+Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer
 Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign 
 Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
-Health pack | low chance of drop after a kill | Item. Can be used to heal HP 100% | Campaign Multiplayer | No
+Food | found spawning randomly | Campaign Multiplayer
 
 ## Shop
 
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
-80 Gold coin | 1 dollar | No 
-2000 Gold coin | 100 dollar | No
+80 Platinum coin | 1 dollar | No 
+10000 Platinum coin | 100 dollar | No
 
 ## Player Profiles
 
@@ -228,6 +229,7 @@ Design | Description | Layout
 ------------ | ------------ | ------------
 Badge | Displayed Badge next to player name | top
 Level | Player level shown | on the right side
+Favorite Weapon | Player showcases their favorite weapon | down
 
 ## Levels
 
