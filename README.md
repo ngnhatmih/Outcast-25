@@ -133,8 +133,7 @@ Mech Kill | 500 | awarded after destroying a Heavenly Knight
 ## Equipment
 
 Wear  | Rarity | Description | Area | Armor | How to get
-------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Cowboy Hat | Common | Shooting finest 10 attack speed | Head | 50 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Flak Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
@@ -167,7 +166,8 @@ Item | Skin | Rarity | Cost
 ------------- | ------------- | ------------- | -------------
 Uzi Bolter | Desert Bolter | Rare | 100 Silver Coin
 Ak 47 | Green Camo | Rare | 100 Silver Coin
-Rail Pistol | Kylie Rail Pistol | Legendary | 200 Gold Coin
+Rail Pistol | Kylie Rail Pistol | Legendary 
+Sniper Barett | Green Sniper Barett | Legendary 
 Saber | Yellow Saber | Mythical | 800 Platinum Coin
 Saber | Purple Saber | Mythical | 800 Platinum Coin
 Saber | Green Saber | Mythical | 800 Platinum Coin
@@ -200,10 +200,7 @@ Campaign
 Campaign
 Campaign
 Campaign CO-OP 
-Arcade
-Team Fight
-Tower Defense
-Ranked Apocalpse 
+Arcade 
 
 ## Collectibles
 
@@ -223,6 +220,13 @@ Offers | Price | Limited time
 80 Platinum coin | 1 dollar | No 
 10000 Platinum coin | 100 dollar | No
 
+## Achievement Trophys
+
+Achievement | Trophy
+------------- | -------------
+
+
+
 ## Player Profiles
 
 Design | Description | Layout
@@ -237,7 +241,7 @@ Favorite Weapon | Player showcases their favorite weapon | down
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1 New | New badge unlocked and displayed | 20 
+1 | New badge unlocked and displayed | 20 
 2 
 3
 4
