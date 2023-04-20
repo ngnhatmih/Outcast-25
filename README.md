@@ -87,9 +87,9 @@ Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | N
 
 Equip up to 3 
 
-Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | Cost 
+Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | Obtained From
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Healing | Common | Restore HP by 50% | 40 | Instant | 30 
+Healing | Common | Restore HP by 50% | 40 | Instant | 30 | No | No | No 
 Radar | Common | Display everyone in map | 100 | 6 | 12 
 Landmine | Uncommon | Place a landmine that does explosive damage on hostiles who tramble it 600 | 120 | Up to 7 only | 30 
 Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage | 60
@@ -208,8 +208,7 @@ Arcade
 Items | Description | Gamemodes 
 ------------- | ------------- | -------------
 Quote Scroll | Found exclusively after collected all the ones in Campaign | Singleplayer Multiplayer
-Stranded Quote | when pick up it shows Scroll message and then get saved to Quotes | Campaign 
-Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
+Ammo | when pick up it restores ammo | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
 Food | found spawning randomly. Restores Hunger | Campaign Multiplayer
@@ -225,9 +224,11 @@ Offers | Price | Limited time
 
 Achievement | Description | Trophy
 ------------- | ------------- | -------------
+Woke to Aware
 The Great Reset 
 The Rockefeller
 Exodus
+The Second Coming
 
 ## Player Profiles
 
