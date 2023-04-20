@@ -212,7 +212,7 @@ Stranded Quote | when pick up it shows Scroll message and then get saved to Quot
 Ammo | found spawning randomly and from kill | Automatically collect ammo when pick up | Campaign Multiplayer
 Ammo Box | found at some map located random fills ammo till certain limit then cooldown | Campaign Multiplayer
 Armor Plate | found spawning randomly | Item. Can be used to restore 50% of armor | Campaign Multiplayer | No
-Food | found spawning randomly | Campaign Multiplayer
+Food | found spawning randomly. Restores Hunger | Campaign Multiplayer
 
 ## Shop
 
@@ -227,7 +227,7 @@ Achievement | Description | Trophy
 ------------- | ------------- | -------------
 The Great Reset 
 The Rockefeller
-
+Exodus
 
 ## Player Profiles
 
