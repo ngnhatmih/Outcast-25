@@ -63,11 +63,12 @@ Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
 Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
+AUG Gun | Rare | Bang bang | Primary | 33 | 89
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
-Uzi Bolter  | Rare | One Handed  | Backup | 24 Damage per shot | 98 | 70 | 13 | No
 Pole Axe | Rare | Actually cool | Melee | 190 | 64 | 70 | No | No | No | No | No | No 
 Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
+Uzi Bolter  | Rare | One Handed  | Special | 24 Damage per shot | 98 | 70 | 13 | No
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 Ak 47 | Legendary | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
@@ -119,6 +120,7 @@ Robot Kill | 20 | awarded after killing a robot machine
 Armor Break | 25 | awarded after destroying a players armor
 Headshot | 30 | awarded after a headshot kill
 Scientist | 30 | awarded after using weapon ability
+From Above | 35 | awarded after a kill when using jetpack
 Turret Kill | 35 | awarded after destroying a machine gun turret
 Man of God | 40 | awarded after praying
 Rocket Jump Kill | 40 | awarded after a rocket jump kill 
@@ -138,6 +140,7 @@ Flak Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
 Steel Cuirass | Legendary | Protects front and back | Body
+
 
 ## Attachments
 
@@ -218,6 +221,7 @@ Food | found spawning randomly. Restores Hunger | Campaign Multiplayer
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
 80 Platinum coin | 1 dollar | No 
+500 Platinum coin
 10000 Platinum coin | 100 dollar | No
 
 ## Achievement Trophys
@@ -225,6 +229,7 @@ Offers | Price | Limited time
 Achievement | Description | Trophy
 ------------- | ------------- | -------------
 Woke to Aware
+Nanobot 19
 The Great Reset 
 The Rockefeller
 Exodus
