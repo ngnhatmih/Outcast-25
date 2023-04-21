@@ -105,7 +105,7 @@ Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
 Hand Lightning | Mythical spawn lighting from hand
 Yeshua's Strength | Mythical | Heal all ally Full recover including armor | 600 | Instant | 60 | No | No | No 
-Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 5000 | 40 | 80 
+Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 1000 | 20 | 5000 | 40 | 80 
 
 ## Scorepoints chart
 
@@ -136,6 +136,7 @@ Mech Kill | 500 | awarded after destroying a Heavenly Knight
 
 Wear  | Rarity | Description | Area | Armor | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+Cowboy Hat | Common 
 Flak Jacket | Uncommon | good design 5 more capacity | Body
 Army Helmet | Rare | Soldier
 Sewn Metal  | Rare | Metal put together | Body | 500 
@@ -234,6 +235,7 @@ The Great Reset
 The Rockefeller
 Exodus
 The Second Coming
+Survived the Holocaust
 
 ## Player Profiles
 
@@ -249,7 +251,7 @@ Favorite Weapon | Player showcases their favorite weapon | down
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1 | New badge unlocked and displayed | 20 
+1
 2 
 3
 4
