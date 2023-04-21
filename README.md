@@ -79,9 +79,9 @@ Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | 
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
 Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
 Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
-Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 
-AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
-Claw | Mythical | Very dangerous | Melee | 480 | 98 | 
+Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
+AWM | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
+Claw | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No | 
 
 ## Scorepowers
