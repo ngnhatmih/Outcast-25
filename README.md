@@ -204,6 +204,7 @@ Campaign
 Campaign
 Campaign
 Campaign
+Campaign
 Campaign CO-OP 
 Arcade 
 
@@ -221,7 +222,7 @@ Food | found spawning randomly. Restores Hunger | Campaign Multiplayer
 
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
-80 Platinum coin | 1 dollar | No 
+200 Platinum coin | 1 dollar | No 
 500 Platinum coin
 10000 Platinum coin | 100 dollar | No
 
@@ -244,6 +245,7 @@ Design | Description | Layout
 Badge | Displayed Badge next to player name | top
 Level | Player level shown | on the right side
 Favorite Weapon | Player showcases their favorite weapon | down
+Trophys | Player can showcase their trophys
 
 ## Levels
 
