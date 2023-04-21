@@ -127,8 +127,9 @@ Rocket Jump Kill | 40 | awarded after a rocket jump kill
 Double Kill | 45 | awarded after a second kill within 3 seconds
 Bird Kill | 50 | awarded after a jetpack kill
 Bird Down | 60 | awarded after a helicopter destroy
-Third Kill | 80 | awarded after a third kill within 2.80 seconds
+Triple Kill | 80 | awarded after a third kill within 2.80 seconds
 Quadra Kill | 160 | awarded after a forth kill within 2.40 seconds
+Violence | 240 | awarded after a fith kill within 2 seconds
 Boss Elmination | 300 | awarded after a boss kill
 Mech Kill | 500 | awarded after destroying a Heavenly Knight
 
