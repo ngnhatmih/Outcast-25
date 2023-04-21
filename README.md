@@ -58,12 +58,12 @@ Fire Shurikens | 1 shuriken | very fast travel time and fire damage
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Range | Reload | X Ray | Laser | Burn Damage | Poison Damage | Bleed Damage | Speciality
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes | Yes | No | No | No
-Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | No | No | No
-Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | No 
+Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | 200 | No | No
+Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | 2
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
-Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | 
-AUG Gun | Rare | Bang bang | Primary | 33 | 89
+Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | No | No | Yes | No | No
+AUG Gun | Rare | Bang bang | Primary | 33 | 89 | 70 | 30 | No | Yes | No | No | 300
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Pole Axe | Rare | Actually cool | Melee | 190 | 64 | 70 | No | No | No | No | No | No 
 Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
@@ -78,7 +78,7 @@ Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bu
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
 Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
-Railgun | Legendary | Big Blast | Special |  | 67
+Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
 Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 65
 Claw | Mythical | Very dangerous | Melee | 480 | 98 | 
