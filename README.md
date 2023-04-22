@@ -233,7 +233,7 @@ Food | found spawning randomly. Restores Hunger | Campaign Multiplayer
 
 Offers | Price | Limited time 
 ------------- | ------------- | -------------
-200 Platinum coin | 1 dollar | No 
+100 Platinum coin | 1 dollar | No 
 500 Platinum coin
 10000 Platinum coin | 100 dollar | No
 
@@ -255,6 +255,7 @@ Button | Feature
 ------------ | ------------
 Battle | enter gameplay
 Shop | enter shop
+Armory | enter armory
 Settings | Shows settings
 Encyclopedia | Shows all discovered AI enemies
 Scrolls | Shows all obtained quotes
@@ -264,6 +265,7 @@ Scrolls | Shows all obtained quotes
 
 Design | Description | Layout
 ------------ | ------------ | ------------
+Banner | Displayed Banner in player name background | Background of Name
 Badge | Displayed Badge next to player name | top
 Level | Player level shown | on the right side
 Favorite Weapon | Player showcases their favorite weapon | down
@@ -275,7 +277,7 @@ Trophys | Player can showcase their trophys
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1
+1 New Player 
 2 
 3
 4
