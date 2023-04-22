@@ -1,3 +1,5 @@
+import os
+
 import sdl2, sdl2.ext
 import ctypes
 class Singleton(type):
@@ -21,11 +23,11 @@ class TextureManager(metaclass = Singleton):
     def load(self, filename: str, id: str, renderer: sdl2.ext.renderer.Renderer)-> bool:
         # Use SDL_Surface to load an image (This uses CPU)
         try:
-            surface: sdl2.SDL_Surface = sdl2.ext.load_image(filename)
+            file_path = os.path.abspath(filename)
+            surface: sdl2.SDL_Surface = sdl2.ext.load_image(file_path)
         except:
             # If load_image can't load the image, raise an error and return false
             print("Error loading image")
-            print(filename)
             return False
         else:
             # Create a SDL_Texture from the surface and store it to the dict with an id
