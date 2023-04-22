@@ -28,7 +28,7 @@ class Game(metaclass = Singleton):
         sdl2.ext.init()
 
         # Window Creation
-        self.window = sdl2.ext.Window(f"Fantasy-World {self.version}", SIZE)
+        self.window = sdl2.ext.Window(f"Outcast-25 {self.version}", SIZE)
 
         # Renderer Creation
         self.renderer = sdl2.ext.renderer.Renderer(self.window, flags = sdl2.SDL_RENDERER_ACCELERATED)
@@ -41,10 +41,6 @@ class Game(metaclass = Singleton):
 
         # Is the game running?
         self.isRunning = True
-
-        # Load the textures
-        TextureManager().load("assets/textures/rikka.jpg", "rikka", self.renderer)
-        self.currentFrame = 0
     
     # Get remderer
     def getRenderer(self)->sdl2.ext.renderer.Renderer:

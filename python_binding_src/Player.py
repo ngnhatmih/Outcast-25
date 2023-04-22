@@ -19,7 +19,7 @@ class Player(GameObject, metaclass = Singleton):
         self.curFrame = 0
         self.curRow = 0
         super().__init__(textureID, self.pos.getX(), self.pos.getY(), w, h, scale, numFrames, game)
-        TextureManager().load("assets/textures/adventurer-v1.5-Sheet.png", "Player", game.getRenderer())
+        TextureManager().load("python_binding_src/adventurer-v1.5-Sheet.png", "Player", game.getRenderer())
 
     def update(self):
         self.pos += self.vel

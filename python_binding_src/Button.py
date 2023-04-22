@@ -12,8 +12,8 @@ class Button(GameObject):
         super().__init__(textureID, x, y, w, h, scale, 3, game)
 
         # Load button textures
-        TextureManager().load("assets/textures/PlayButton.png", "PlayButton", game.getRenderer())
-        TextureManager().load("assets/textures/ExitButton.png", "ExitButton", game.getRenderer())
+        TextureManager().load("python_binding_src/PlayButton.png", "PlayButton", game.getRenderer())
+        TextureManager().load("python_binding_src/ExitButton.png", "ExitButton", game.getRenderer())
 
     def update(self):
         if self.checkCollision(InputHandler().getMousePos()):
