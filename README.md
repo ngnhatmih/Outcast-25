@@ -169,7 +169,7 @@ Can be found available for use
 
 Vehicle | Description | HP | Damage | Attack Speed | Mobility
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
-Army pickup Car 
+Army pickup Car | Very fast and deadly withstand | 1400
 Battle Helicopter
 
 ## Skins
@@ -192,6 +192,7 @@ Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Mobility | Equipme
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64 | Knife | Knife 
 Mind controlled police | Moderate | Attacks players on sight | 100 | 50
+Pagan | Moderate
 Satanist | Moderate | attacks as soon as you are seen in view | 140 | 60
 Freemason | Hard | Attacks players on sight | 200 
 Hostile Army Soldier | Hard | Well equiped patrols | 400
@@ -240,7 +241,7 @@ Offers | Price | Limited time
 Achievement | Description | Trophy
 ------------- | ------------- | -------------
 Woke to Aware | Got all the Quote Scrolls
-Nanobot 19
+Nanobot 19 | Beat Mission
 The Great Reset 
 The Rockefeller
 Exodus
@@ -253,8 +254,9 @@ Button | Feature
 ------------ | ------------
 Battle | enter gameplay
 Shop | enter shop
-Gear | Shows settings
-Quote | Shows all obtained quotes
+Settings | Shows settings
+Encyclopedia | Shows all discovered AI enemies
+Scrolls | Shows all obtained quotes
 
 
 ## Player Profiles
