@@ -178,9 +178,11 @@ Battle Helicopter | Well seated and mighty wings | 2200
 
 Item | Skin | Rarity | Cost
 ------------- | ------------- | ------------- | -------------
+AUG Gun | Ti skin AUG | Rare
 Uzi Bolter | Desert Bolter | Rare | 100 Silver Coin
 Ak 47 | Green Camo | Rare | 100 Silver Coin
 Rail Pistol | Kylie Rail Pistol | Legendary 
+Butterfly Knife | Bloodreaper | Legendary
 Sniper Barett | Green Sniper Barett | Legendary 
 Saber | Yellow Saber | Mythical | 800 Platinum Coin
 Saber | Purple Saber | Mythical | 800 Platinum Coin
