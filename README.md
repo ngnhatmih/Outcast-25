@@ -57,8 +57,8 @@ Fire Shurikens | 1 shuriken | very fast travel time and fire damage
 
 ## Weapons
 
-Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Range | Reload | X Ray | Laser | Burn Damage | Poison Damage | Bleed Damage | Speciality
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Range | Reload | X Ray | Laser | Burn Damage | Poison Damage | Bleed Damage | Speciality | How to get
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes | Yes | No | No | No
 Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | 200 | No | No
 Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | 2
@@ -90,7 +90,7 @@ Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | N
 
 Equip up to 3 
 
-Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | Obtained From
+Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Healing | Common | Restore HP by 50% | 40 | Instant | 30 | No | No | No 
 Radar | Common | Display everyone in map | 100 | 6 | 12 
@@ -152,7 +152,7 @@ Steel Cuirass | Legendary | Protects front and back | Body
 
 Upgrades
 
-Item | Upgrade | Rarity | Description | Area | Bonus | Obtained from
+Item | Upgrade | Rarity | Description | Area | Bonus | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Short Shotgun | 2x zoom | Uncommon | increased range and Focus mode unlocked 
 Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total capacity
@@ -276,7 +276,7 @@ Trophys | Player can showcase their trophys
 
 ## Levels
 
-1 exp per kill
+1 exp per kill 40 exp per win
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
