@@ -39,6 +39,7 @@ Breaking Environment | And they drop resources | All Gamemodes
 Climbing | Some weapons like Claw can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
+Campaign Alert | after discovering a new enemy in game during gameplay a message bar pops up pauses game if Campaign and player press Okay after reading or to skip
 
 ## Crafting
 
@@ -240,7 +241,7 @@ Offers | Price | Limited time
 
 Achievement | Description | Trophy
 ------------- | ------------- | -------------
-Woke to Aware | Got all the Quote Scrolls
+Woke to Aware | Got all the Quote Scrolls | Anti Elite Trophy
 Nanobot 19 | Beat Mission
 The Great Reset 
 The Rockefeller
