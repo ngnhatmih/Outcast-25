@@ -59,8 +59,8 @@ Fire Shurikens | 1 shuriken | very fast travel time and fire damage
 
 Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Capacity | Shotgun | Automatic | Explosive | Travel Time | Range | Reload | X Ray | Laser | Burn Damage | Poison Damage | Bleed Damage | Speciality | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes | Yes | No | No | No
-Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | 200 | No | No
+Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes | Yes | No | No | No | 32 | 2.1 | No | No | No | No | No
+Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | 1.3 | 200 | No | No | No
 Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | 2
 Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
