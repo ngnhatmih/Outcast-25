@@ -70,15 +70,15 @@ Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 9
 Pole Axe | Rare | Actually cool | Melee | 190 | 64 | 70 | No | No | No | No | No | No 
 Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
-Uzi Bolter  | Rare | One Handed  | Special | 24 Damage per shot | 98 | 70 | 13 | No
+Uzi Bolter  | Rare | One Handed  | Special | 24 Damage per shot | 98 | 70 | 13 | No | Yes | No | No | 400 | 1.0 | No | No 
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
 Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
 Ak 47 | Legendary | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
-Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No
-Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | 79
+Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No | No | 500 | 2.0 | No | Yes | No
+Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | No | No | Yes | No | No | No | 3 | No | No | No | No | No | No
 Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
 Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
 Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
@@ -105,7 +105,6 @@ Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive d
 Ally Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
 Time Bracelet | Mythical | teleports back to place 3 seconds ago | 240 | Instant | 30
-Hand Lightning | Mythical spawn lighting from hand
 Yeshua's Strength | Mythical | Heal all ally Full recover including armor | 600 | Instant | 60 | No | No | No 
 Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons from Heavens | 1000 | 20 | 5000 | 40 | 80 
 
