@@ -62,10 +62,10 @@ Weapon | Rarity | Description | Category | Damage | Attack Speed | Mobility | Ca
 Short Shotgun | Common | One hand sawed off | Primary | 30 per bullet total 6 | 76 | 55 | Yes | Yes | No | No | No | 32 | 2.1 | No | No | No | No | No
 Uzi gun | Common | Quite fun | Backup | 11 | 99 | 75 | 15 | No | Yes | No | Yes | 200 | 1.3 | No | No | No | No | No
 Knife | Common | Melee | 50 | 72 | 85 | No | No | Yes | No | No | 2 | No | No | No | No | No
-Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No
+Hunting Rifle | Common | the original hunting rifle | Sniper | 50 | 73 | 45 | 2 | No | No | No | No | 200 | 3.0 | No | No | No | No
 Desert Eagle | Uncommon | fires a blast bullet | Backup | 60 | 93 | 60 | 5 | No | 
 Machete | Uncommon | thin thing | Melee | 70 | 87 | 85 | No | No | Yes | No | No
-AUG Gun | Rare | Bang bang | Primary | 33 | 89 | 70 | 30 | No | Yes | No | No | 300
+AUG Gun | Rare | Bang bang | Primary | 33 | 89 | 70 | 30 | No | Yes | No | No | 300 | 3.4 | No | No | No | No
 Double Prayer | Rare | Double blaster | Primary | 10 Damage per shot total 9 | 93 | 65 | 2 | Yes | No | No | Yes
 Pole Axe | Rare | Actually cool | Melee | 190 | 64 | 70 | No | No | No | No | No | No 
 Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
