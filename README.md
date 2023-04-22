@@ -30,12 +30,13 @@ equipment enemies scorepowers maps
 
 ## Mechanics
 
-Mechanic | Description | Layout
+Mechanic | Description | Layout 
 ------------- | ------------- | ------------- 
-Weapons Category UI | can switch between weapons some weapon has delay | below down area
-Rocket Jump | if a explosion blast player goes flying or jump | Explosions
-Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in
-Breaking Environment | And they drop resources | All Gamemodes
+Weapons Category UI | can switch between weapons some weapon has delay | down screen area 
+Skull Kill Icon | each kill is displayed in top of screen with a skull with kills | top screen area
+Rocket Jump | if a explosion blast player goes flying or jump | Explosions 
+Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in 
+Breaking Environment | And they drop resources | All Gamemodes 
 Climbing | Some weapons like Claw can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
@@ -170,8 +171,8 @@ Can be found available for use
 
 Vehicle | Description | HP | Damage | Attack Speed | Mobility
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------  
-Army pickup Car | Very fast and deadly withstand | 1400
-Battle Helicopter
+Army pickup Car | Very fast and deadly withstand | 1400 | 300 Hit damage | No | 95 
+Battle Helicopter | Well seated and mighty wings | 2200 
 
 ## Skins
 
@@ -209,7 +210,7 @@ Gamemode | Map | Description | Objective | Event | Win Reward
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Campaign 
 Campaign
-Campaign
+Campaign | New Age City
 Campaign
 Campaign
 Campaign
