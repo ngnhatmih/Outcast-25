@@ -37,7 +37,7 @@ Skull Kill Icon | each kill is displayed in top of screen with a skull with kill
 Rocket Jump | if a explosion blast player goes flying or jump | Explosions 
 Focus Mode | Hold Right Click and use scope zoom for full accurate shooting | Scope zooming in 
 Breaking Environment | And they drop resources | All Gamemodes 
-Climbing | Some weapons like Claw can attach on to buildings and walls | jump and Attack on a wall or building 
+Climbing | Some weapons like Claws can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
 Campaign Alert | after discovering a new enemy in game during gameplay a message bar pops up pauses game if Campaign and player press Okay after reading or to skip
@@ -83,8 +83,8 @@ Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No 
 Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
 Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
-Claw | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No
-Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No 
+Claws | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No | 1 | No | No | No | No | No | 70 for 4 seconds | Can climb up walls 
+Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No | 1 | No | No | Yes | 60 for 5 seconds | No | No | No | Can dash forward 
 
 ## Scorepowers
 
@@ -159,7 +159,6 @@ Hunting Rifle | Medium Magazine | Rare | better magazine | Magazine | 4 total ca
 Uzi Bolter | Feather Grip | Legendary | featherly leather ending grip | Grip 
 M4a1 | Grenade Launcher | Mythical | Weapon ability unlocked 
 Ak 74 | Grenade Launcher | Mythical | Weapon ability unlocked | Barrel | Weapon Ability
-Claw | Second Claw | Mythical | can attach on buildings and objects and move quicker on them faster and 2x damage | Other Hand | 2x damage
 Katana | Tsuba | Legendary 
 Saber | Longer emitter | Mythical | Melee Range Increase 70 
 
