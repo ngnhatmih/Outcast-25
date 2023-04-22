@@ -109,6 +109,8 @@ Heavenly Knight | Mythical | summon into a powerful Godly armour and weapons fro
 
 ## Scorepoints chart
 
+Get from doing actions in game
+
 Action | Score | Description
 ------------- | ------------- | -------------
 Kill Assist | 10 | awarded after a kill contribute
@@ -146,6 +148,8 @@ Steel Cuirass | Legendary | Protects front and back | Body
 
 ## Attachments
 
+Upgrades
+
 Item | Upgrade | Rarity | Description | Area | Bonus | Obtained from
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Short Shotgun | 2x zoom | Uncommon | increased range and Focus mode unlocked 
@@ -161,10 +165,12 @@ Saber | Longer emitter | Mythical | Melee Range Increase 70
 
 ## Vehicles
 
-Vehicle | Description | HP | Damage
-------------- | ------------- | ------------- | ------------- 
-Car
-Helicopter
+Can be found available for use 
+
+Vehicle | Description | HP | Damage | Attack Speed | Mobility
+------------- | ------------- | ------------- | ------------- | ------------- | -------------  
+Army pickup Car 
+Battle Helicopter
 
 ## Skins
 
@@ -182,17 +188,17 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 ## AI Enemies 
 
-Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Equipment | Useful drops
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Mobility | Equipment | Useful drops
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 Mind controlled civilian | Easy | Attacks players on sight | 40 | 20 | 64 | Knife | Knife 
-Mind controlled police | Moderate | Attacks players on sight | 100
-Satanist | Moderate | attacks as soon as you are seen in view | 200
-Freemason | Hard
+Mind controlled police | Moderate | Attacks players on sight | 100 | 50
+Satanist | Moderate | attacks as soon as you are seen in view | 140 | 60
+Freemason | Hard | Attacks players on sight | 200 
 Hostile Army Soldier | Hard | Well equiped patrols | 400
 Hostile Helicopter | Hard | engages in sight aircraft | 1000 
-Illuminarti member | Very Hard
-Fallen angel | Very hard | Haunts and harass the player | 2500
-The Rockefeller | Boss
+Illuminarti member | Very Hard | can switch between weapons
+Fallen angel | Very hard | Haunts and harass the player | 2500 | 200
+The Rockefeller | Boss 
 
 
 ## Gamemodes and Maps
@@ -210,6 +216,8 @@ Campaign CO-OP
 Arcade 
 
 ## Collectibles
+
+Found around the maps
 
 Items | Description | Gamemodes 
 ------------- | ------------- | -------------
@@ -231,13 +239,23 @@ Offers | Price | Limited time
 
 Achievement | Description | Trophy
 ------------- | ------------- | -------------
-Woke to Aware
+Woke to Aware | Got all the Quote Scrolls
 Nanobot 19
 The Great Reset 
 The Rockefeller
 Exodus
 The Second Coming
 Survived the Holocaust
+
+## GUI
+
+Button | Feature 
+------------ | ------------
+Battle | enter gameplay
+Shop | enter shop
+Gear | Shows settings
+Quote | Shows all obtained quotes
+
 
 ## Player Profiles
 
