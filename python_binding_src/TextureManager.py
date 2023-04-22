@@ -25,6 +25,7 @@ class TextureManager(metaclass = Singleton):
         except:
             # If load_image can't load the image, raise an error and return false
             print("Error loading image")
+            print(filename)
             return False
         else:
             # Create a SDL_Texture from the surface and store it to the dict with an id
