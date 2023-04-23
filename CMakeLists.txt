@@ -12,6 +12,11 @@ set(SOURCE_FILES
 # Set the executable file for the project
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
+# Make sure submodules exist before building
+if(NOT EXISTS "${PROJECT_SOURCE_DIR}/vendor/SDL/CMakeLists.txt")
+    message(FATAL_ERROR "Unable to locate the SDL3 submodule in filesystem. Try running `git submodule update --init --recursive`.")
+endif()
+
 # No need to build tests when bulding SDL
 option(SDL_TEST OFF)
 
