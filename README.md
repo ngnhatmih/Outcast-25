@@ -188,6 +188,12 @@ Saber | Green Saber | Mythical | 800 Platinum Coin
 Saber | Red Saber | Mythical | 800 Platinum Coin
 Saber | Blue Saber | Mythical | 800 Platinum Coin
 
+## Armory
+
+Layout 
+-------------
+
+
 ## AI Enemies 
 
 Enemy | Difficulty | Behaviour | HP | Damage | Attack Speed | Mobility | Equipment | Useful drops
@@ -237,6 +243,7 @@ Offers | Price | Limited time
 100 Platinum coin | 1 dollar | No 
 500 Platinum coin
 10000 Platinum coin | 100 dollar | No
+EXP 2X booster | 25 platinum coin | No
 
 ## Achievement Trophys
 
@@ -271,17 +278,17 @@ Banner | Displayed Banner in player name background | Background of Name
 Badge | Displayed Badge next to player name | top
 Level | Player level shown | on the right side
 Favorite Weapon | Player showcases their favorite weapon | down
-Trophys | Player can showcase their trophys
+Trophys | Player can showcase their trophys | down
 
 ## Levels
 
-1 exp per kill 40 exp per win
+1 exp per kill
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
 1 | +1 level point | 50
-2 | +1 level point
-3 | +1 level point
+2 | +1 level point | 500
+3 | +1 level point | 5000
 4 | +1 level point
 5 | +1 level point
 6 | +1 level point
