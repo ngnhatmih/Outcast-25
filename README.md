@@ -81,18 +81,19 @@ Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | 
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | No | No | Yes | No | No | No | 3 | No | No | No | No | No | No
 Close Quarters Knife | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
 Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
-Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
-AWM | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
+AWP | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
 Claws | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No | 1 | No | No | No | No | No | 70 for 4 seconds | Can climb up walls 
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No | 1 | No | No | Yes | 60 for 5 seconds | No | No | No | Can dash forward 
+Sniper Barett | Mythical | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
 
 ## Summon Units
 
 Summon from a radio center
 
-Ally Unit | Rarity | Description | Cost | HP | Damage 
-------------- | ------------- | ------------- | -------------
-Ally Terrorists | Uncommon | 4 armed ally terrorists entering the map and goes engaging the enemy 
+Ally Unit | Rarity | Description | HP | Damage | Attack Speed | Mobility | Capacity | How To Get
+------------- | ------------- | ------------- | ------------- |  ------------- | ------------- | ------------- | -------------
+Ally Terrorists | Uncommon | 4 armed ally terrorists entering the map and goes engaging the enemy | 120 | 20 per bullet | 
+Ally Soldiers | Rare | 3 armed ally army soldiers entering the map and goes engaging the enemy
 
 ## Scorepowers
 
