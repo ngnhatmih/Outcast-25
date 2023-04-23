@@ -84,7 +84,7 @@ Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | 
 AWP | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
 Claws | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No | 1 | No | No | No | No | No | 70 for 4 seconds | Can climb up walls 
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No | 1 | No | No | Yes | 60 for 5 seconds | No | No | No | Can dash forward 
-Sniper Barett | Mythical | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
+Sniper Barett | Mythical | a good sniper | Sniper | 127 | 78 | 45 | 3 | No | Yes | No | No
 
 ## Summon Units
 
@@ -94,6 +94,7 @@ Ally Unit | Rarity | Description | HP | Damage | Attack Speed | Mobility | Capac
 ------------- | ------------- | ------------- | ------------- |  ------------- | ------------- | ------------- | -------------
 Ally Terrorists | Uncommon | 4 armed ally terrorists entering the map and goes engaging the enemy | 120 | 20 per bullet | 
 Ally Soldiers | Rare | 3 armed ally army soldiers entering the map and goes engaging the enemy
+Ally Tank | Legendary | 1 strong tank entering the map and goes engaging the enemy
 
 ## Scorepowers
 
