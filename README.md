@@ -254,6 +254,7 @@ Survived the Holocaust
 
 Button | Feature 
 ------------ | ------------
+Profile | shows your player profile and can edit
 Battle | enter gameplay
 Shop | enter shop
 Armory | enter armory
@@ -289,9 +290,9 @@ Level Rank | Reward | EXP Required
 9 | +1 level point
 10 | +1 level point
 11 | +1 level point
-12
-13
-14
+12 | +1 level point
+13 | +1 level point
+14 | +1 level point
 15
 16
 17
