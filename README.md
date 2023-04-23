@@ -79,12 +79,20 @@ Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | 
 Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets | 86 | 50 | 8 | Yes | Yes | No | No | 150 | 
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No | No | 500 | 2.0 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | No | No | Yes | No | No | No | 3 | No | No | No | No | No | No
-Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
+Close Quarters Knife | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
 Railgun | Legendary | Big Blast | Special | 160 | 67 | 50 | 3 | No | No | Yes | No
 Sniper Barett | Legendary | a good sniper | Sniper | 127 | 78 | 65 | 3 | No | Yes | No | No
 AWM | Legendary | a powerful | Sniper | 140 | 78 | 70 | 4 | No | No | No | No
 Claws | Mythical | Very dangerous | Melee | 480 | 98 | 90 | No | No | No | No | No | 1 | No | No | No | No | No | 70 for 4 seconds | Can climb up walls 
 Saber | Mythical | cuts through | Melee | 500 | 90 | 95 | No | No | Yes | No | No | 1 | No | No | Yes | 60 for 5 seconds | No | No | No | Can dash forward 
+
+## Summon Units
+
+Summon from a radio center
+
+Ally Unit | Rarity | Description | Cost | HP | Damage 
+------------- | ------------- | ------------- | -------------
+Ally Terrorists | Uncommon | 4 armed ally terrorists entering the map and goes engaging the enemy 
 
 ## Scorepowers
 
@@ -93,7 +101,7 @@ Equip up to 3
 Power  | Rarity | Purpose | Required SP | Lifetime | Cooldown | HP | Damage | Attack Speed | How to get
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Healing | Common | Restore HP by 50% | 40 | Instant | 30 | No | No | No 
-Radar | Common | Display everyone in map | 100 | 6 | 12 
+Radar | Common | Display everyone in map | 100 | 6 | 12 | No | No | No 
 Landmine | Uncommon | Place a landmine that does explosive damage on hostiles who tramble it 600 | 120 | Up to 7 only | 30 
 Molotov | Uncommon | Throw a molotov area fire damage sets ground on fire 30 damage | 60
 Armor Plate | Uncommon | Restore 25% Shield | Instant | 8 | No | No | No 
@@ -101,6 +109,7 @@ Grenade  | Rare | Throw a grenade area exolosion damage 300 | 50 | 3 | 5
 Machine gun turret | Rare | Deploy a machine gun turret that does bullet damage 20 | 230 | 25 
 Jetpack | Rare | Fly the skies | 175 | 20 | 27 | 1000 | No | No 
 Field Shield | Rare | Covers deployed front from damage | 400 | 30 | 50 
+Ally Tank | Legendary
 Rocket gun turret | Legendary | Deploy a rocket gun turret that does explosive damage 300 | 
 Ally Helicopter | Legendary | Helicopter engages enemies on sight | 600 | 20 | 50 | 1400 | 50 Per bullet 200 per explosive 500 on crash | 89 bullet attack speed 30 rocket attack speed
 Blessing | Legendary | get a next kill with a headshot get 300 bonus SP | 50 | 7 | 50 
@@ -190,8 +199,8 @@ Saber | Blue Saber | Mythical | 800 Platinum Coin
 
 ## Armory
 
-Layout 
--------------
+Layout | 
+------------- 
 
 
 ## AI Enemies 
@@ -243,7 +252,7 @@ Offers | Price | Limited time
 100 Platinum coin | 1 dollar | No 
 500 Platinum coin
 10000 Platinum coin | 100 dollar | No
-EXP 2X booster | 25 platinum coin | No
+EXP 2X booster 5 hours | 25 platinum coin | No
 
 ## Achievement Trophys
 
@@ -288,7 +297,7 @@ Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
 1 | +1 level point | 50
 2 | +1 level point | 500
-3 | +1 level point | 5000
+3 | +1 level point 
 4 | +1 level point
 5 | +1 level point
 6 | +1 level point
@@ -326,6 +335,22 @@ Level Rank | Reward | EXP Required
 38
 39
 40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
 
 ## Level Upgrades
 
