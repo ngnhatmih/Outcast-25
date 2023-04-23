@@ -40,7 +40,7 @@ Breaking Environment | And they drop resources | All Gamemodes
 Climbing | Some weapons like Claws can attach on to buildings and walls | jump and Attack on a wall or building 
 Overheat Mechanic | When using the overheat covers the weapon category its in and stops being functional for a while 
 Vehicle Explosion | on aircaft it is blasted and crashes explode on ground | Game mechanic by default
-Campaign Alert | after discovering a new enemy in game during gameplay a message bar pops up pauses game if Campaign and player press Okay after reading or to skip
+Campaign Alert | after discovering a new enemy in game during gameplay a message bar pops up pauses game if Campaign and player press Okay after reading or to skip | Screen Popup Message
 
 ## Crafting
 
@@ -72,11 +72,11 @@ Club Bat | Rare | Hit them over | Melee | 180 | 56 | 75 | No | No | No
 Electric Club | Rare | One Handed Punisher | 120 | 70 | 73 | No | No | No | No | No | No
 Uzi Bolter  | Rare | One Handed  | Special | 24 Damage per shot | 98 | 70 | 13 | No | Yes | No | No | 400 | 1.0 | No | No 
 Cutter Tohamawk | Rare | throw tohamawk | Special | 76 | 73 | 79 | 10 | No | Yes | No | Yes | No
-Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes
+Stinger | Rare | Vehicle killer | Heavy | 100 Damage per shot does 900 Damage to vehicles per shot | 72 | 3 | No | Yes | Yes | Yes | 700 | 3.4 | No | No | No | No | No 
 Ak 47 | Legendary | still good to this day | Primary | 24 | 97 | 50 | 30 | No | Yes | No | No | No | 330 | Yes
 M4a1 | Legendary | cutter rounds | Primary 43 | Damage per shot | 95 | 30
 Ak 74 | Legendary | deadly | Primary | 40 Damage per shot | 98 | 55 | 30 | No | Yes | No | No | No 
-Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets 
+Spas Shotgun | Legendary | shoots spas | Primary | 24 Damage per shot total 7 bullets | 86 | 50 | 8 | Yes | Yes | No | No | 150 | 
 Rail Pistol | Legendary | shoots rail | Backup | 120 | 78 | 75 | 4 | No | Yes | No | No | 500 | 2.0 | No | Yes | No
 Katana  | Legendary | Slashes | Melee | 80 Damage per hit | 99 | 85 | No | No | Yes | No | No | No | 3 | No | No | No | No | No | No
 Launch Knives | Slice Up | Legendary | Assassin | Melee | 89 | 78 | 95 | 5 | No | Yes | No | Yes | No | 200 | 1.3 seconds | No | No | No | No | 24 damage per 2 seconds | can be thrown if right clicked
