@@ -1,6 +1,11 @@
 # CMake 3.21 required to build; could probably be set lower
 cmake_minimum_required(VERSION 3.21.0)
 
+# Prevent in-source builds
+if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_CURRENT_BINARY_DIR)
+  message(FATAL_ERROR "Prevented in-tree build. Please create a build directory outside of the Outcast source code and run \"cmake -S ${CMAKE_SOURCE_DIR} -B .\" from there")
+endif()
+
 # Set the project with latest version
 project(outcast VERSION "0.0.1")
 
