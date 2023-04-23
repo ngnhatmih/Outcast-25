@@ -278,17 +278,17 @@ Trophys | Player can showcase their trophys
 
 Level Rank | Reward | EXP Required
 ------------ | ------------- | ------------- 
-1 | New badge unlocked and displayed +1 level point | 50
+1 | +1 level point | 50
 2 | +1 level point
 3 | +1 level point
 4 | +1 level point
 5 | +1 level point
 6 | +1 level point
-7
-8
-9
-10
-11
+7 | +1 level point
+8 | +1 level point
+9 | +1 level point
+10 | +1 level point
+11 | +1 level point
 12
 13
 14
@@ -318,3 +318,10 @@ Level Rank | Reward | EXP Required
 38
 39
 40
+
+## Level Upgrades
+
+Upgrade | Description | Required Level Point
+------------ | ------------ | ------------ | ------------ 
+
+
