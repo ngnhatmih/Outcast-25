@@ -9,14 +9,6 @@ endif()
 # Set the project with latest version
 project(outcast VERSION "0.0.1")
 
-# List of sources for the project
-set(SOURCE_FILES
-    src/main.cpp
-)
-
-# Set the executable file for the project
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
-
 # Make sure submodules exist before building
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/vendor/SDL/CMakeLists.txt")
     message(FATAL_ERROR "Unable to locate the SDL3 submodule in filesystem. Try running `git submodule update --init --recursive`.")
@@ -28,19 +20,13 @@ option(SDL_TEST OFF)
 # Build the SDL submodule along with the project
 add_subdirectory(vendor/SDL)
 
-# Force minimum compatability to be with C++14
-target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_14)
-
-# Add includes for the project
-target_include_directories(${PROJECT_NAME} PRIVATE vendor/SDL/include)
-
-# Add and link libraries to project
-target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3)
+add_subdirectory(Engine)
+add_subdirectory(Game)
 
 # Enable lto on the target if supported (in Release mode)
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
-    set_property(TARGET ${PROJECT_NAME} PROPERTY INTERPROCEDURAL_OPTIMIZATION True)
+    set_property(TARGET outcast game PROPERTY INTERPROCEDURAL_OPTIMIZATION True)
 endif()
 
 # Enable PIE/PIC on the target if supported
-set_property(TARGET ${PROJECT_NAME} PROPERTY POSITION_INDEPENDENT_CODE True)
+set_property(TARGET outcast game PROPERTY POSITION_INDEPENDENT_CODE True)

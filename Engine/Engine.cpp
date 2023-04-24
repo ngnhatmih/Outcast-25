@@ -1,12 +1,15 @@
-#include <iostream>
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_main.h>
+#include "Engine.h"
 
-int main(int argc, char *argv[])
+Engine::Engine()
 {
     SDL_Init(SDL_INIT_EVERYTHING);
 
-    SDL_Window *window = SDL_CreateWindow("Hello World", 800, 600, 0);
+    SDL_version sdlVersion{};
+    SDL_GetVersion(&sdlVersion);
+
+    SDL_Log("This program is linked with SDL version %u.%u.%u", sdlVersion.major, sdlVersion.minor, sdlVersion.patch);
+
+    SDL_Window* window = SDL_CreateWindow("Hello World", 800, 600, 0);
 
     if (window == NULL)
     {
@@ -20,12 +23,12 @@ int main(int argc, char *argv[])
         if (SDL_PollEvent(&windowEvent))
         {
             if (windowEvent.type == SDL_EVENT_QUIT)
-            { break; }
+            {
+                break;
+            }
         }
     }
 
     SDL_DestroyWindow(window);
     SDL_Quit();
-
-    return EXIT_SUCCESS;
 }
