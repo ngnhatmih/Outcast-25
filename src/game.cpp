@@ -1,5 +1,7 @@
 #include "game.h"
 
+Game *Game::instancePtr = 0;
+
 bool Game::init(const char *title, int w, int h, Uint32 flags)
 {   
     std::cout << "Initializing..." << std::endl;
@@ -35,7 +37,16 @@ bool Game::init(const char *title, int w, int h, Uint32 flags)
     }
 
     std::cout << "Initialized SDL successfully" << std::endl;
-    m_textureManager.load("assets/download.bmp", "download", m_pRenderer);
+
+    /* Loads assets */
+    TextureManager::getInstance()->load("assets/download.bmp", "download", m_pRenderer);
+    TextureManager::getInstance()->load("assets/Vampire/BatVampire_Flying.png", "player", m_pRenderer);
+    
+    /* Initializes player */
+    p1 = new Player();
+    p1->load(new LoaderParams(200, 200, 32, 32, "player", 4));
+
+    SDL_SetRenderDrawColor(m_pRenderer, 255, 192, 203, 255);
 
     return 1;
 }
@@ -54,13 +65,13 @@ void Game::handleEvents()
 
 void Game::update() 
 {
-
+    p1->update();
 }
 
 void Game::render()
 {
     SDL_RenderClear(m_pRenderer);
-    m_textureManager.draw("download", 0, 0, 287, 175, 1, m_pRenderer);
+    p1->draw();
     SDL_RenderPresent(m_pRenderer);
 }
 

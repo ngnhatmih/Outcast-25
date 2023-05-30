@@ -9,37 +9,49 @@ endif()
 # Set the project with latest version
 project(outcast VERSION "0.0.1")
 
+# Set the assets files for the project
+set(ASSETS assets)
+file(COPY ${ASSETS} DESTINATION ${CMAKE_BINARY_DIR})
+
 # List of sources for the project
-set(SOURCE_FILES
-    src/main.cpp
-)
+file(GLOB_RECURSE SOURCE_FILES "src/*.cpp")
 
 # Set the executable file for the project
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 # Make sure submodules exist before building
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/vendor/SDL/CMakeLists.txt")
-    message(FATAL_ERROR "Unable to locate the SDL3 submodule in filesystem. Try running `git submodule update --init --recursive`.")
+	message(FATAL_ERROR "Unable to locate the SDL3 submodule in filesystem. Try running `git submodule update --init --recursive`.")
+endif()
+
+
+if(NOT EXISTS "${PROJECT_SOURCE_DIR}/vendor/SDL_image/CMakeLists.txt")
+	message(FATAL_ERROR "Unable to locate the SDL3_image submodule in filesystem. Try running `git submodule update --init --recursive`.")
 endif()
 
 # No need to build tests when bulding SDL
 option(SDL_TEST OFF)
 
-# Build the SDL submodule along with the project
+# Build the submodules along with the project
 add_subdirectory(vendor/SDL)
+add_subdirectory(vendor/SDL_image)
 
 # Force minimum compatability to be with C++14
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_14)
 
 # Add includes for the project
-target_include_directories(${PROJECT_NAME} PRIVATE vendor/SDL/include)
+target_include_directories(
+	${PROJECT_NAME} PRIVATE vendor/SDL/include
+	${PROJECT_NAME} PRIVATE vendor/SDL_image/include
+	${PROJECT_NAME} PRIVATE include
+)
 
 # Add and link libraries to project
-target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3)
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3 SDL3_image::SDL3_image)
 
 # Enable lto on the target if supported (in Release mode)
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
-    set_property(TARGET ${PROJECT_NAME} PROPERTY INTERPROCEDURAL_OPTIMIZATION True)
+	set_property(TARGET ${PROJECT_NAME} PROPERTY INTERPROCEDURAL_OPTIMIZATION True)
 endif()
 
 # Enable PIE/PIC on the target if supported
