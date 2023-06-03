@@ -16,8 +16,27 @@ file(COPY ${ASSETS} DESTINATION ${CMAKE_BINARY_DIR})
 # List of sources for the project
 file(GLOB_RECURSE SOURCE_FILES "src/*.cpp")
 
+# Build imgui
+set(Imgui_SOURCES
+    vendor/imgui/imconfig.h
+    vendor/imgui/imgui.cpp
+    vendor/imgui/imgui.h
+    vendor/imgui/imgui_demo.cpp
+    vendor/imgui/imgui_draw.cpp
+    vendor/imgui/imgui_internal.h
+    vendor/imgui/imgui_widgets.cpp
+    vendor/imgui/imstb_rectpack.h
+    vendor/imgui/imstb_textedit.h
+    vendor/imgui/imstb_truetype.h
+	vendor/imgui/imgui_tables.cpp
+    vendor/imgui/backends/imgui_impl_sdlrenderer3.cpp
+    vendor/imgui/backends/imgui_impl_sdlrenderer3.h
+    vendor/imgui/backends/imgui_impl_sdl3.cpp
+    vendor/imgui/backends/imgui_impl_sdl3.h
+)
+
 # Set the executable file for the project
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${Imgui_SOURCES})
 
 # Make sure submodules exist before building
 if(NOT EXISTS "${PROJECT_SOURCE_DIR}/vendor/SDL/CMakeLists.txt")
@@ -41,6 +60,8 @@ target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_14)
 
 # Add includes for the project
 target_include_directories(
+	${PROJECT_NAME} PRIVATE vendor/imgui
+	${PROJECT_NAME} PRIVATE vendor/imgui/backends
 	${PROJECT_NAME} PRIVATE vendor/SDL/include
 	${PROJECT_NAME} PRIVATE vendor/SDL_image/include
 	${PROJECT_NAME} PRIVATE include

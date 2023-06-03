@@ -37,7 +37,7 @@ bool Game::init(const char *title, int w, int h, Uint32 flags)
     }
 
     std::cout << "Initialized SDL successfully" << std::endl;
-
+    
     /* Loads assets */
     TextureManager::getInstance()->load("assets/download.bmp", "download", m_pRenderer);
     TextureManager::getInstance()->load("assets/Vampire/BatVampire_Flying.png", "player", m_pRenderer);

@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    Game::getInstance()->init("outcast", 1000, 600, 0);
+    Game::getInstance()->init("outcast", 800, 600, 0);
 
     while(Game::getInstance()->running())
     {

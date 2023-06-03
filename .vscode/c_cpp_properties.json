@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/vendor/SDL/include",
                 "${workspaceFolder}/vendor/SDL_image/include",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/vendor/imgui",
+                "${workspaceFolder}/vendor/imgui/backends"
             ],
             "defines": [
                 "_DEBUG",
