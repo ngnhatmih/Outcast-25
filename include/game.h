@@ -2,7 +2,12 @@
 #define GAME_H
 
 #include "texture_manager.h"
-#include "player.h"
+#include "input_handler.h"
+#include "game_object.h"
+#include "imgui.h"
+#include "imgui_impl_sdl3.h"
+#include "imgui_impl_sdlrenderer3.h"
+#include "game_state_machine.h"
 
 class Game
 {
@@ -23,9 +28,11 @@ public:
     void update();
     void render();
     void clean();
+    void quit() { m_bRunning = 0; };
     bool running() { return m_bRunning; }
 
     SDL_Renderer *getRenderer() { return m_pRenderer; }
+    SDL_Window *getWindow() { return m_pWindow; }
 
 private:
     Game() {}
@@ -37,7 +44,6 @@ private:
     
     int m_currentFrame;
 
-    Player *p1;
 };
 
 #endif // GAME_H

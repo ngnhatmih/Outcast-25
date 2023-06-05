@@ -7,6 +7,7 @@
 class Vector2D
 {
 public:
+    Vector2D() {}
     Vector2D(float x, float y): m_x(x), m_y(y) {}
     static Vector2D Polar(float radius, float angle) { return Vector2D(radius*std::cos(angle), radius*std::sin(angle)); }
     Vector2D(const Vector2D &that) { this->m_x = that.m_x; this->m_y = that.m_y; }
@@ -33,6 +34,8 @@ public:
 
     float abs();
     friend float abs(const Vector2D &);
+    
+    void normalize();
     
     friend std::ostream &operator<<(std::ostream &, const Vector2D &);
 

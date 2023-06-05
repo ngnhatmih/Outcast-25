@@ -1,4 +1,5 @@
 #include "texture_manager.h"
+#include "constant.h"
 
 TextureManager *TextureManager::instancePtr = 0;
 
@@ -8,14 +9,14 @@ bool TextureManager::load(std::string file, std::string id, SDL_Renderer *render
 
     texture = IMG_LoadTexture(renderer, file.c_str());
 
-    if(texture == 0)
+    if (texture == nullptr)
     {
-        std::cout << "Could not load the texture-ID: " << id << std::endl;
+        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not load the texture-ID: %s. Error: %s", id.c_str(), IMG_GetError());
         return false;
     }
     else
     {
-        std::cout << "Loaded successfully the texture-ID: " << id << std::endl;
+        SDL_Log("Loaded successfully the texture-ID: %s", id.c_str());
         m_textures[id] = texture;
     }
 
@@ -24,6 +25,7 @@ bool TextureManager::load(std::string file, std::string id, SDL_Renderer *render
 
 void TextureManager::draw(std::string id, float x, float y, float w, float h, float scale, SDL_Renderer *renderer, SDL_RendererFlip flip)
 {
+    //SDL_SetTextureBlendMode(m_textures[id], blend);
     SDL_FRect srcRect {0, 0, w, h};
     SDL_FRect desRect {x, y, w*scale, h*scale};
 

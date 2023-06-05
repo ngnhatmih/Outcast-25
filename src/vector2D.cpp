@@ -73,6 +73,14 @@ float abs(const Vector2D &that)
     return std::sqrt(that.m_x * that.m_x + that.m_y * that.m_y);
 }
 
+void Vector2D::normalize()
+{
+    if (this->abs() != 0)
+    {
+        (*this) *= 1/this->abs();
+    }
+}
+
 std::ostream &operator<<(std::ostream &stream, const Vector2D &that)
 {
     return stream << "[" << that.m_x << "," << that.m_y << "]";

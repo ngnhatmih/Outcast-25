@@ -1,20 +1,32 @@
 #include "game.h"
+#include "constant.h"
 
 using namespace std;
 
 
 int main(int argc, char *argv[])
 {
-    Game::getInstance()->init("outcast", 800, 600, 0);
-
-    while(Game::getInstance()->running())
+    if(Game::getInstance()->init("outcast", WIDTH, HEGIHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_BORDERLESS))
     {
-        Game::getInstance()->handleEvents();
-        Game::getInstance()->update();
-        Game::getInstance()->render();
-    }
+        Uint32 frameStart, frameTime;
 
-    Game::getInstance()->clean();
+        while(Game::getInstance()->running())
+        {
+            frameStart = SDL_GetTicks();
+
+            Game::getInstance()->handleEvents();
+            Game::getInstance()->update();
+            Game::getInstance()->render();
+
+            frameTime = SDL_GetTicks() - frameStart;
+
+            if (frameTime < DELAY_TIME)
+            {
+                SDL_Delay(DELAY_TIME - frameTime);
+            }
+        }
+        Game::getInstance()->clean();
+    }
     
     return EXIT_SUCCESS;
 }

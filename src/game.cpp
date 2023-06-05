@@ -1,32 +1,33 @@
 #include "game.h"
+#include "menu_state.h"
 
 Game *Game::instancePtr = 0;
 
 bool Game::init(const char *title, int w, int h, Uint32 flags)
 {   
-    std::cout << "Initializing..." << std::endl;
+    SDL_Log("Initializing...");
     if(SDL_Init(SDL_INIT_EVERYTHING) == 0)
     {
-        m_pWindow = SDL_CreateWindow(title, w, h, 0);
+        m_pWindow = SDL_CreateWindow(title, w, h, flags);
         
         if (m_pWindow == 0)
         {
-            std::cout << "Could not create window: " << SDL_GetError() << std::endl;
+            SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Could not create window: %s", SDL_GetError());
             return 0;
         } 
         else
         {
-            std::cout << "Window created successfully" << std::endl;
+            SDL_Log("Window created successfully");
 
             m_pRenderer = SDL_CreateRenderer(m_pWindow, 0, SDL_RENDERER_ACCELERATED);
             if (m_pRenderer == 0)
             {
-                std::cout << "Could not create renderer: " << SDL_GetError() << std::endl;
+                SDL_LogError(SDL_LOG_CATEGORY_ERROR, "Could not create renderer: %s", SDL_GetError());
                 return 0;
             }
             else 
             { 
-                std::cout << "Renderer created successfully" << std::endl;
+                SDL_Log("Renderer created successfully");
                 m_bRunning = 1;
             }
         }
@@ -36,48 +37,96 @@ bool Game::init(const char *title, int w, int h, Uint32 flags)
         std::cout << "Could not initialize SDL";
     }
 
-    std::cout << "Initialized SDL successfully" << std::endl;
+    SDL_ShowWindow(m_pWindow);
+    SDL_Log("Initialized SDL successfully");
     
-    /* Loads assets */
-    TextureManager::getInstance()->load("assets/download.bmp", "download", m_pRenderer);
-    TextureManager::getInstance()->load("assets/Vampire/BatVampire_Flying.png", "player", m_pRenderer);
-    
-    /* Initializes player */
-    p1 = new Player();
-    p1->load(new LoaderParams(200, 200, 32, 32, "player", 4));
+    /* Imgui initializes */
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
 
-    SDL_SetRenderDrawColor(m_pRenderer, 255, 192, 203, 255);
+    ImGui::StyleColorsDark();
+    
+    /* Imgui backend initializes */
+    if (ImGui_ImplSDL3_InitForSDLRenderer(m_pWindow, m_pRenderer))
+    {
+        SDL_Log("Initialized imgui backend for SDL3 successfully");
+        if (ImGui_ImplSDLRenderer3_Init(m_pRenderer))
+        {
+            SDL_Log("Initialized ImGui backend for SDL_Renderer successfully");
+        }
+        else
+        {
+            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not initialize ImGui backend for SDL_Renderer: %s", SDL_GetError());
+            return 0;
+        }
+    }
+    else
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Could not initialize ImGui backend for SDL3: %s", SDL_GetError());
+        return 0;
+    }
+
+    GameStateMachine::getInstace()->pushState(new MenuState());
 
     return 1;
 }
 
 void Game::handleEvents()
 {
-    SDL_Event event;
-    if(SDL_PollEvent(&event))
-    {
-        if(event.type == SDL_EVENT_QUIT)
-        {
-            m_bRunning = 0;
-        }
-    }
+    InputHandler::getInstance()->update();
 }
 
 void Game::update() 
 {
-    p1->update();
+    GameStateMachine::getInstace()->update();
 }
 
 void Game::render()
 {
-    SDL_RenderClear(m_pRenderer);
-    p1->draw();
-    SDL_RenderPresent(m_pRenderer);
+    ImGui_ImplSDLRenderer3_NewFrame();
+    ImGui_ImplSDL3_NewFrame();
+    
+    ImGui::NewFrame();
+
+    if (ImGui::BeginMainMenuBar())
+    {
+        if (ImGui::BeginMenu("File")) {
+            if (ImGui::MenuItem("Open")) {
+                    
+            }
+            if (ImGui::MenuItem("Save")) {
+                    
+            }
+            ImGui::EndMenu();
+        }
+        if (ImGui::BeginMenu("Edit")) {
+            if (ImGui::MenuItem("Cut")) {
+                
+            }
+            if (ImGui::MenuItem("Copy")) {
+               
+            }
+            if (ImGui::MenuItem("Paste")) {
+                   
+            }
+            ImGui::EndMenu();
+        }
+        ImGui::EndMainMenuBar();
+    }
+
+
+    GameStateMachine::getInstace()->render();
 }
 
 void Game::clean()
 {
-    std::cout <<"Cleaning game...";
+    SDL_Log("Cleaning game...");
+
+    /* Cleaning imgui... */
+    ImGui_ImplSDLRenderer3_Shutdown();
+    ImGui_ImplSDL3_Shutdown();
+    ImGui::DestroyContext();
+
     SDL_DestroyRenderer(m_pRenderer);
     SDL_DestroyWindow(m_pWindow);
     SDL_Quit();
