@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    if(Game::getInstance()->init("outcast", WIDTH, HEGIHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_BORDERLESS))
+    if(Game::getInstance()->init("outcast", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE))
     {
         Uint32 frameStart, frameTime;
 

@@ -25,7 +25,7 @@ void SDLGameObject::update()
 
 void SDLGameObject::clean()
 {
-
+    delete this;
 }
 
 bool SDLGameObject::checkCollision(Vector2D pos)

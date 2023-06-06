@@ -47,6 +47,10 @@ void GameStateMachine::onKeyUp(SDL_Event event)
     m_gameStates.top()->onKeyUp(event);
 }
 
+void GameStateMachine::onWindowResize()
+{
+    m_gameStates.top()->onWindowResize();
+}
 void GameStateMachine::pushState(GameState *gameState)
 {
     gameState->onEnter();

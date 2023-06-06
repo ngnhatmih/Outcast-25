@@ -1,9 +1,13 @@
 #include "layer.h"
 #include "game.h"
+#include "constant.h"
 #include "texture_manager.h"
 
 void Layer::update()
 {
+    m_width = Game::getInstance()->getWindowSize().getX();
+    m_height = Game::getInstance()->getWindowSize().getY();
+
     if (m_scrollOffSet > m_width)
     {
         m_scrollOffSet = 0;
@@ -18,8 +22,8 @@ void Layer::update()
 
 void Layer::draw()
 {
-    TextureManager::getInstance()->draw(m_TextureID, m_scrollOffSet - m_width, 0, m_width, m_height, 1, Game::getInstance()->getRenderer());
-    TextureManager::getInstance()->draw(m_TextureID, m_scrollOffSet, 0, m_width, m_height, 1, Game::getInstance()->getRenderer());
+    TextureManager::getInstance()->draw(m_TextureID, m_scrollOffSet + ((m_scrollFlow) ? -1 : 1)*m_width, 0, m_width, m_height, 1, 1, Game::getInstance()->getRenderer());
+    TextureManager::getInstance()->draw(m_TextureID, m_scrollOffSet, 0, m_width, m_height, 1, 1, Game::getInstance()->getRenderer());
 }
 
 void Layer::clean()

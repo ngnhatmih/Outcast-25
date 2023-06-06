@@ -3,7 +3,6 @@
 
 #include "texture_manager.h"
 #include "input_handler.h"
-#include "game_object.h"
 #include "imgui.h"
 #include "imgui_impl_sdl3.h"
 #include "imgui_impl_sdlrenderer3.h"
@@ -33,6 +32,7 @@ public:
 
     SDL_Renderer *getRenderer() { return m_pRenderer; }
     SDL_Window *getWindow() { return m_pWindow; }
+    Vector2D getWindowSize();
 
 private:
     Game() {}

@@ -30,6 +30,8 @@ public:
     void onKeyDown(SDL_Event event);
     void onKeyUp(SDL_Event event);
 
+    void onWindowResize();
+    
     std::string getStateID() { return m_gameStates.top()->getStateID(); }
 
     void pushState(GameState *gameState);

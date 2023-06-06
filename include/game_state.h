@@ -17,6 +17,7 @@ public:
     virtual void onMouseButtonUp(SDL_Event event) = 0;
     virtual void onKeyDown(SDL_Event event) = 0;
     virtual void onKeyUp(SDL_Event event) = 0;
+    virtual void onWindowResize() = 0;
     virtual std::string getStateID() = 0;
     virtual GameObject *getGameObject(std::string objectID) = 0;
 

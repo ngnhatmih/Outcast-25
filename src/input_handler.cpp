@@ -71,10 +71,12 @@ void InputHandler::update()
         ImGui_ImplSDL3_ProcessEvent(&event);
         if (event.type == SDL_EVENT_QUIT)
         {
+            GameStateMachine::getInstace()->onExit();
             Game::getInstance()->quit();
         }
         if (event.type == SDL_EVENT_WINDOW_CLOSE_REQUESTED && event.window.windowID == SDL_GetWindowID(Game::getInstance()->getWindow()))
         {
+            GameStateMachine::getInstace()->onExit();
             Game::getInstance()->quit();
         }
         if (event.type == SDL_EVENT_MOUSE_BUTTON_DOWN)
@@ -96,6 +98,14 @@ void InputHandler::update()
         if (event.type == SDL_EVENT_KEY_DOWN)
         {
             onKeyUp(event);
+        }
+        if (event.type == SDL_EVENT_WINDOW_RESIZED)
+        {
+            int w_tmp;
+            int h_tmp;
+            SDL_GetWindowSize(Game::getInstance()->getWindow(), &w_tmp, &h_tmp);
+            SDL_SetRenderLogicalPresentation(Game::getInstance()->getRenderer(), w_tmp, h_tmp, SDL_LOGICAL_PRESENTATION_STRETCH, SDL_SCALEMODE_BEST);
+            GameStateMachine::getInstace()->onWindowResize();
         }
     }
 }

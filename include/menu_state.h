@@ -18,6 +18,7 @@ public:
     void onMouseButtonUp(SDL_Event event);
     void onKeyDown(SDL_Event event);
     void onKeyUp(SDL_Event event);
+    void onWindowResize();
     std::string getStateID() { return m_stateID; }
     GameObject *getGameObject(std::string objectID);
 

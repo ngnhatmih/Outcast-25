@@ -90,30 +90,36 @@ void Game::render()
 
     if (ImGui::BeginMainMenuBar())
     {
+        ImGui::SetCursorPosX(0);
         if (ImGui::BeginMenu("File")) {
             if (ImGui::MenuItem("Open")) {
                     
             }
+
             if (ImGui::MenuItem("Save")) {
                     
             }
             ImGui::EndMenu();
         }
+
         if (ImGui::BeginMenu("Edit")) {
             if (ImGui::MenuItem("Cut")) {
                 
             }
+
             if (ImGui::MenuItem("Copy")) {
                
             }
+            
             if (ImGui::MenuItem("Paste")) {
                    
             }
             ImGui::EndMenu();
         }
-        ImGui::EndMainMenuBar();
-    }
 
+        ImGui::EndMainMenuBar();
+
+    }
 
     GameStateMachine::getInstace()->render();
 }
@@ -130,4 +136,13 @@ void Game::clean()
     SDL_DestroyRenderer(m_pRenderer);
     SDL_DestroyWindow(m_pWindow);
     SDL_Quit();
+}
+
+Vector2D Game::getWindowSize()
+{
+    int w_tmp;
+    int h_tmp;
+    SDL_GetWindowSize(m_pWindow, &w_tmp, &h_tmp);
+    
+    return Vector2D(w_tmp, h_tmp);
 }

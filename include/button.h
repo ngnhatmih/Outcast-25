@@ -16,7 +16,6 @@ public:
     Button() 
     {
         TextureManager::getInstance()->load("assets/PlayButton.png", "tButton::play", Game::getInstance()->getRenderer());
-        m_released = true;
     }
     
     void draw();
@@ -26,7 +25,8 @@ public:
     bool checkCollision(Vector2D pos);
     
 protected:
-    bool m_released;
+    float m_xPercentages;
+    float m_yPercentages;
 
 };
 

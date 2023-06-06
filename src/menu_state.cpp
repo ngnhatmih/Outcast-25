@@ -6,16 +6,17 @@
 void MenuState::onEnter()
 {
     SDL_Log("Entering menu state...");
-    m_gameObjects["oButton::play"] = new Button();
-    m_gameObjects["oButton::play"]->load(new LoaderParams(CENTER_X-50, CENTER_Y-25, 100, 50, 1, "tButton::play", 3));
 
+    m_gameObjects["oButton::play"] = new Button();
+    m_gameObjects["oButton::play"]->load(new LoaderParams(0.5, 0.5, Game::getInstance()->getWindowSize().getX(), Game::getInstance()->getWindowSize().getY(), 100, 50, 1, "tButton::play", 3));
+    
     /* Loading background's layers */
     TextureManager::getInstance()->load("assets/Clouds/1.png", "tCloud::Layer_1", Game::getInstance()->getRenderer());
     TextureManager::getInstance()->load("assets/Clouds/2.png", "tCloud::Layer_2", Game::getInstance()->getRenderer());
     TextureManager::getInstance()->load("assets/Clouds/3.png", "tCloud::Layer_3", Game::getInstance()->getRenderer());
     TextureManager::getInstance()->load("assets/Clouds/4.png", "tCloud::Layer_4", Game::getInstance()->getRenderer());
 
-    m_background = new Background(576, 324);
+    m_background = new Background();
     m_background->loadLayer("tCloud::Layer_4", 1, 1);
     m_background->loadLayer("tCloud::Layer_3", 0.5, 1);
     m_background->loadLayer("tCloud::Layer_2", 0.25, 1);
@@ -23,17 +24,19 @@ void MenuState::onEnter()
 
     SDL_SetRenderDrawBlendMode(Game::getInstance()->getRenderer(), SDL_BLENDMODE_BLEND);
 
-    
-    
 }
 
 void MenuState::onExit()
 {
+    SDL_Log("Exiting menu state...");
     for (const auto &pair : m_gameObjects)
     {
         pair.second->clean();
     }
 
+    m_gameObjects.clear();
+
+    m_background->clean();
     delete m_background;
 }
 
@@ -61,8 +64,6 @@ void MenuState::render()
     {
         pair.second->draw();
     }
-
-    
 
     ImGui_ImplSDLRenderer3_RenderDrawData(ImGui::GetDrawData());
 
@@ -92,6 +93,11 @@ void MenuState::onKeyDown(SDL_Event event)
 void MenuState::onKeyUp(SDL_Event event)
 {
 
+}
+
+void MenuState::onWindowResize()
+{
+    
 }
 
 GameObject *MenuState::getGameObject(std::string ID)

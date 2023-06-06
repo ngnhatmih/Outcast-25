@@ -23,11 +23,10 @@ bool TextureManager::load(std::string file, std::string id, SDL_Renderer *render
     return true;
 }
 
-void TextureManager::draw(std::string id, float x, float y, float w, float h, float scale, SDL_Renderer *renderer, SDL_RendererFlip flip)
+void TextureManager::draw(std::string id, float x, float y, float w, float h, float w_scale, float h_scale, SDL_Renderer *renderer, SDL_RendererFlip flip)
 {
-    //SDL_SetTextureBlendMode(m_textures[id], blend);
     SDL_FRect srcRect {0, 0, w, h};
-    SDL_FRect desRect {x, y, w*scale, h*scale};
+    SDL_FRect desRect {x, y, w*w_scale, h*h_scale};
 
     SDL_RenderTextureRotated(renderer, m_textures[id], &srcRect, &desRect, 0, 0, flip);
 }
