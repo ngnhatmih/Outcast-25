@@ -16,15 +16,24 @@ void Button::update()
         m_pos.setY(y);
     }
 
-    if (checkCollision(InputHandler::getInstance()->getMousePos()))
+    if (checkCollision(InputHandler::getInstance()->getMousePos())) 
     {
         m_currentFrame = BUTTON_OVER;
-        if (InputHandler::getInstance()->getMouseButtonState(LEFT))
+
+        if (InputHandler::getInstance()->getMouseButtonState(LEFT)) 
         {
             m_currentFrame = BUTTON_DOWN;
+            m_released = false;
+            
+        } 
+        else if (!m_released) 
+        {
+            m_released = true;
+            m_callback();
         }
-    } 
-    else { m_currentFrame = BUTTON_OUT; }
+    } else {
+        m_currentFrame = BUTTON_OUT;
+    }
 }
 
 void Button::clean()

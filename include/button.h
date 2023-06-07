@@ -13,18 +13,18 @@ enum button_state
 class Button: public SDLGameObject
 {
 public:
-    Button() 
-    {
-        TextureManager::getInstance()->load("assets/PlayButton.png", "tButton::play", Game::getInstance()->getRenderer());
-    }
+    Button(void (*callback)()): m_callback(callback) {}
     
     void draw();
     void update();
     void clean();
     void load(LoaderParams *pLoader);
     bool checkCollision(Vector2D pos);
+    void setReleased(bool released) { m_released = released; }
     
 protected:
+    void (*m_callback) ();
+    bool m_released = true;
     float m_xPercentages;
     float m_yPercentages;
 

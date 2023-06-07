@@ -58,6 +58,11 @@ bool Vector2D::operator==(const Vector2D &that)
     return this->m_x == that.m_x && this->m_y == that.m_y;
 }
 
+bool Vector2D::operator!=(const Vector2D &that)
+{
+    return !operator==(that);
+}
+
 float Vector2D::dot(const Vector2D &that)
 {
     return this->m_x * that.m_x + this->m_y * that.m_y;

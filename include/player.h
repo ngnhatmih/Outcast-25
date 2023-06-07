@@ -12,6 +12,10 @@ public:
     virtual void clean();
     virtual void load(LoaderParams *pLoader);
     virtual bool checkCollision(Vector2D pos);
+    void handleInput();
+
+protected:
+    Vector2D m_target;
 
 };
 

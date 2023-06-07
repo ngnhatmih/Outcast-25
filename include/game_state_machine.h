@@ -8,7 +8,7 @@ class GameStateMachine
 {
 public:
     GameStateMachine(const GameStateMachine &) = delete;
-    static GameStateMachine *getInstace()
+    static GameStateMachine *getInstance()
     {
         if (instancePtr == nullptr)
         {

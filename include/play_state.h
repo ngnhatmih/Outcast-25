@@ -1,14 +1,12 @@
-#ifndef MENU_STATE_H
-#define MENU_STATE_H
+#ifndef PLAY_STATE_H
+#define PLAY_STATE_H
 
 #include "game_state.h"
-#include "background.h"
-#include <stack>
 
-class MenuState: public GameState 
+class PlayState: public GameState
 {
 public:
-    MenuState() {}
+    PlayState() {}
     void update();
     void render();
     void onEnter();
@@ -18,19 +16,14 @@ public:
     void onMouseButtonUp(SDL_Event event);
     void onKeyDown(SDL_Event event);
     void onKeyUp(SDL_Event event);
-    void onWindowResize();
+    void onWindowResize() {}
     std::string getStateID() { return m_stateID; }
     GameObject *getGameObject(std::string objectID);
 
 protected:
     std::map<std::string, GameObject *> m_gameObjects;
-    std::string m_stateID = "menu";
+    std::string m_stateID = "play";
 
-    Background *m_background;
-
-private:
-    static void play();
-    
 };
 
-#endif /* MENU_STATE_H */
+#endif /* PLAY_STATE */

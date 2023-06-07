@@ -1,4 +1,5 @@
 #include "menu_state.h"
+#include "play_state.h"
 #include "button.h"
 #include "game.h"
 #include "constant.h"
@@ -7,7 +8,10 @@ void MenuState::onEnter()
 {
     SDL_Log("Entering menu state...");
 
-    m_gameObjects["oButton::play"] = new Button();
+    /* Loading buttons */
+    TextureManager::getInstance()->load("assets/PlayButton.png", "tButton::play", Game::getInstance()->getRenderer());
+
+    m_gameObjects["oButton::play"] = new Button(play);
     m_gameObjects["oButton::play"]->load(new LoaderParams(0.5, 0.5, Game::getInstance()->getWindowSize().getX(), Game::getInstance()->getWindowSize().getY(), 100, 50, 1, "tButton::play", 3));
     
     /* Loading background's layers */
@@ -22,7 +26,7 @@ void MenuState::onEnter()
     m_background->loadLayer("tCloud::Layer_2", 0.25, 1);
     m_background->loadLayer("tCloud::Layer_1", 0, 1);
 
-    SDL_SetRenderDrawBlendMode(Game::getInstance()->getRenderer(), SDL_BLENDMODE_BLEND);
+    SDL_SetRenderDrawBlendMode(Game::getInstance()->getRenderer(), SDL_BLENDMODE_NONE);
 
 }
 
@@ -82,7 +86,7 @@ void MenuState::onMouseButtonDown(SDL_Event event)
 
 void MenuState::onMouseButtonUp(SDL_Event event)
 {
-
+    
 }
 
 void MenuState::onKeyDown(SDL_Event event)
@@ -103,4 +107,9 @@ void MenuState::onWindowResize()
 GameObject *MenuState::getGameObject(std::string ID)
 {
     return m_gameObjects[ID];
+}
+
+void MenuState::play()
+{
+    GameStateMachine::getInstance()->changeState(new PlayState());
 }

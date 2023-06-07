@@ -66,7 +66,7 @@ bool Game::init(const char *title, int w, int h, Uint32 flags)
         return 0;
     }
 
-    GameStateMachine::getInstace()->pushState(new MenuState());
+    GameStateMachine::getInstance()->pushState(new MenuState());
 
     return 1;
 }
@@ -78,7 +78,7 @@ void Game::handleEvents()
 
 void Game::update() 
 {
-    GameStateMachine::getInstace()->update();
+    GameStateMachine::getInstance()->update();
 }
 
 void Game::render()
@@ -121,7 +121,7 @@ void Game::render()
 
     }
 
-    GameStateMachine::getInstace()->render();
+    GameStateMachine::getInstance()->render();
 }
 
 void Game::clean()

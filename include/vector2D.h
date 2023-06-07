@@ -29,6 +29,7 @@ public:
     Vector2D operator*=(float);
     Vector2D operator/=(float);
     bool operator==(const Vector2D &);
+    bool operator!=(const Vector2D &);
 
     float dot(const Vector2D &);
 

@@ -6,7 +6,7 @@ void InputHandler::onMouseMove(SDL_Event event)
 {
     m_mousePos.setX(event.motion.x);
     m_mousePos.setY(event.motion.y);
-    GameStateMachine::getInstace()->onMouseMove(event);
+    GameStateMachine::getInstance()->onMouseMove(event);
 }
 
 void InputHandler::onMouseButtonDown(SDL_Event event)
@@ -17,7 +17,7 @@ void InputHandler::onMouseButtonDown(SDL_Event event)
         case SDL_BUTTON_MIDDLE: m_mouseButtonStates[MIDDLE] = true; break;
         case SDL_BUTTON_RIGHT: m_mouseButtonStates[RIGHT] = true; break;
     }
-    GameStateMachine::getInstace()->onMouseButtonDown(event);
+    GameStateMachine::getInstance()->onMouseButtonDown(event);
 }
 
 void InputHandler::onMouseButtonUp(SDL_Event event)
@@ -28,7 +28,7 @@ void InputHandler::onMouseButtonUp(SDL_Event event)
         case SDL_BUTTON_MIDDLE: m_mouseButtonStates[MIDDLE] = false; break;
         case SDL_BUTTON_RIGHT: m_mouseButtonStates[RIGHT] = false; break;
     }
-    GameStateMachine::getInstace()->onMouseButtonUp(event);
+    GameStateMachine::getInstance()->onMouseButtonUp(event);
 }
 
 void InputHandler::reset()
@@ -51,13 +51,13 @@ bool InputHandler::isKeyDown(SDL_Scancode key)
 void InputHandler::onKeyDown(SDL_Event event)
 {
     m_keyStates = SDL_GetKeyboardState(0);
-    GameStateMachine::getInstace()->onKeyDown(event);
+    GameStateMachine::getInstance()->onKeyDown(event);
 }
 
 void InputHandler::onKeyUp(SDL_Event event)
 {
     m_keyStates = SDL_GetKeyboardState(0);
-    GameStateMachine::getInstace()->onKeyUp(event);
+    GameStateMachine::getInstance()->onKeyUp(event);
 }
 
 void InputHandler::update()
@@ -71,12 +71,12 @@ void InputHandler::update()
         ImGui_ImplSDL3_ProcessEvent(&event);
         if (event.type == SDL_EVENT_QUIT)
         {
-            GameStateMachine::getInstace()->onExit();
+            GameStateMachine::getInstance()->onExit();
             Game::getInstance()->quit();
         }
         if (event.type == SDL_EVENT_WINDOW_CLOSE_REQUESTED && event.window.windowID == SDL_GetWindowID(Game::getInstance()->getWindow()))
         {
-            GameStateMachine::getInstace()->onExit();
+            GameStateMachine::getInstance()->onExit();
             Game::getInstance()->quit();
         }
         if (event.type == SDL_EVENT_MOUSE_BUTTON_DOWN)
@@ -105,7 +105,7 @@ void InputHandler::update()
             int h_tmp;
             SDL_GetWindowSize(Game::getInstance()->getWindow(), &w_tmp, &h_tmp);
             SDL_SetRenderLogicalPresentation(Game::getInstance()->getRenderer(), w_tmp, h_tmp, SDL_LOGICAL_PRESENTATION_STRETCH, SDL_SCALEMODE_BEST);
-            GameStateMachine::getInstace()->onWindowResize();
+            GameStateMachine::getInstance()->onWindowResize();
         }
     }
 }
