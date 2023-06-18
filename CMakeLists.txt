@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.21.0)
 
 # Prevent in-source builds
 if(CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_CURRENT_BINARY_DIR)
-  message(FATAL_ERROR "Prevented in-tree build. Please create a build directory outside of the Outcast source code and run \"cmake -S ${CMAKE_SOURCE_DIR} -B .\" from there")
+  message(FATAL_ERROR "Prevented in-tree build. Please create a build directory outside of the Outcast source code and run /"cmake -S ${CMAKE_SOURCE_DIR} -B ./" from there")
 endif()
 
 # Set the project with latest version
@@ -54,6 +54,7 @@ option(SDL_TEST OFF)
 # Build the submodules along with the project
 add_subdirectory(vendor/SDL)
 add_subdirectory(vendor/SDL_image)
+add_subdirectory(vendor/nativefiledialog)
 
 # Force minimum compatability to be with C++14
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_14)
@@ -64,11 +65,12 @@ target_include_directories(
 	${PROJECT_NAME} PRIVATE vendor/imgui/backends
 	${PROJECT_NAME} PRIVATE vendor/SDL/include
 	${PROJECT_NAME} PRIVATE vendor/SDL_image/include
+  ${PROJECT_NAME} PRIVATE vendor/nativefiledialog/include
 	${PROJECT_NAME} PRIVATE include
 )
 
 # Add and link libraries to project
-target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3 SDL3_image::SDL3_image)
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3 SDL3_image::SDL3_image nfd)
 
 # Enable lto on the target if supported (in Release mode)
 if(CMAKE_BUILD_TYPE STREQUAL "Release")

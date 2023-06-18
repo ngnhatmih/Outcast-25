@@ -25,6 +25,7 @@ public:
     bool load(std::string file, std::string id, SDL_Renderer *renderer);
     void draw(std::string id, float x, float y, float w, float h, float w_scale, float h_scale, SDL_Renderer *renderer, SDL_RendererFlip flip = SDL_FLIP_NONE);
     void drawFrame(std::string id, float x, float y, float w, float h, float scale, int currentFrame, int currentRow, SDL_Renderer *renderer, SDL_RendererFlip flip = SDL_FLIP_NONE);
+    SDL_Texture * getTexture(std::string id) { return m_textures[id]; }
 
 private:
     TextureManager() {}

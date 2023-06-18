@@ -1,16 +1,16 @@
-#include "game.h"
-#include "constant.h"
-
-using namespace std;
-
+#include "game.h"     /* Contains everything of the game */
+#include "constant.h" /* Game constants*/
+#include <nfd.h>
 
 int main(int argc, char *argv[])
 {
-    if(Game::getInstance()->init("outcast", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_BORDERLESS))
+    /* Initializes SDL and Dear Imgui */
+    if (Game::getInstance()->init("outcast", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE))
     {
         Uint32 frameStart, frameTime;
 
-        while(Game::getInstance()->running())
+        /* Game loop */
+        while (Game::getInstance()->running())
         {
             frameStart = SDL_GetTicks();
 
@@ -22,11 +22,13 @@ int main(int argc, char *argv[])
 
             if (frameTime < DELAY_TIME)
             {
+                /* Delays offset the time when the frameTime drops below the delay time */
                 SDL_Delay(DELAY_TIME - frameTime);
             }
         }
+        /* End of game loop */
         Game::getInstance()->clean();
     }
-    
+
     return EXIT_SUCCESS;
 }

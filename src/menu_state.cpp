@@ -86,7 +86,7 @@ void MenuState::onMouseButtonDown(SDL_Event event)
 
 void MenuState::onMouseButtonUp(SDL_Event event)
 {
-    
+
 }
 
 void MenuState::onKeyDown(SDL_Event event)

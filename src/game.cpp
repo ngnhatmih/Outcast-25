@@ -1,7 +1,10 @@
 #include "game.h"
+#include "UI.h"
 #include "menu_state.h"
+#include "work_state.h"
 
 Game *Game::instancePtr = 0;
+char a[5];
 
 bool Game::init(const char *title, int w, int h, Uint32 flags)
 {   
@@ -66,7 +69,7 @@ bool Game::init(const char *title, int w, int h, Uint32 flags)
         return 0;
     }
 
-    GameStateMachine::getInstance()->pushState(new MenuState());
+    GameStateMachine::getInstance()->pushState(new WorkState());
 
     return 1;
 }
@@ -87,40 +90,7 @@ void Game::render()
     ImGui_ImplSDL3_NewFrame();
     
     ImGui::NewFrame();
-
-    if (ImGui::BeginMainMenuBar())
-    {
-        ImGui::SetCursorPosX(0);
-        if (ImGui::BeginMenu("File")) {
-            if (ImGui::MenuItem("Open")) {
-                    
-            }
-
-            if (ImGui::MenuItem("Save")) {
-                    
-            }
-            ImGui::EndMenu();
-        }
-
-        if (ImGui::BeginMenu("Edit")) {
-            if (ImGui::MenuItem("Cut")) {
-                
-            }
-
-            if (ImGui::MenuItem("Copy")) {
-               
-            }
-            
-            if (ImGui::MenuItem("Paste")) {
-                   
-            }
-            ImGui::EndMenu();
-        }
-
-        ImGui::EndMainMenuBar();
-
-    }
-
+    
     GameStateMachine::getInstance()->render();
 }
 
@@ -133,6 +103,7 @@ void Game::clean()
     ImGui_ImplSDL3_Shutdown();
     ImGui::DestroyContext();
 
+    /* Cleaning SDL... */
     SDL_DestroyRenderer(m_pRenderer);
     SDL_DestroyWindow(m_pWindow);
     SDL_Quit();

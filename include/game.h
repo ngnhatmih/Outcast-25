@@ -8,11 +8,11 @@
 #include "imgui_impl_sdlrenderer3.h"
 #include "game_state_machine.h"
 
+// Singleton class
 class Game
 {
 public:
-    
-    Game(const Game&) = delete;
+    Game(const Game &) = delete;
     static Game *getInstance()
     {
         if (instancePtr == 0)
@@ -21,7 +21,7 @@ public:
         }
         return instancePtr;
     }
-    
+
     bool init(const char *title, int w, int h, Uint32 flags);
     void handleEvents();
     void update();
@@ -38,12 +38,11 @@ private:
     Game() {}
     static Game *instancePtr;
     bool m_bRunning;
-    
+
     SDL_Window *m_pWindow;
     SDL_Renderer *m_pRenderer;
-    
-    int m_currentFrame;
 
+    int m_currentFrame;
 };
 
 #endif // GAME_H
