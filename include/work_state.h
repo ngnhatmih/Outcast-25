@@ -2,6 +2,7 @@
 #define WORK_STATE_H
 
 #include "game_state.h"
+#include "command.h"
 
 class WorkState: public GameState
 {
@@ -19,10 +20,12 @@ public:
     void onWindowResize();
     std::string getStateID() { return m_stateID; }
     GameObject *getGameObject(std::string objectID) { return m_gameObjects[objectID]; }
-    void ShowOpenDialog();
+    void showFileDialogs(std::string path);
 
 private:
     std::map<std::string, GameObject *> m_gameObjects;
+    std::map<std::string, Command *> m_commands;
+    
     std::string m_stateID = "work";
     std::string directory;
 

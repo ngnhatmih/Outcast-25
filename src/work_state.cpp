@@ -1,13 +1,14 @@
 #include "work_state.h"
 #include "constant.h"
-#include "file_dialogs.h"
 #include "game.h"
-
 
 void WorkState::onEnter()
 {
     SDL_Log("Entering work state...");
     SDL_SetRenderDrawBlendMode(Game::getInstance()->getRenderer(), SDL_BLENDMODE_NONE);
+    m_commands["OpenFile"] = new OpenFileCommand();
+    m_commands["OpenFolder"] = new OpenFolderCommand();
+
 }
 
 void WorkState::onExit()
@@ -31,47 +32,79 @@ void WorkState::update()
 
 void WorkState::render()
 {
+    
+
     if (ImGui::BeginMainMenuBar())
     {
         ImGui::SetCursorPosX(0);
-        if (ImGui::BeginMenu("File")) {
-            if (ImGui::MenuItem("Open", "Ctrl + O")) {
-                FileDialogs::getInstance()->openFile();
+        if (ImGui::BeginMenu("File"))
+        {
+            if (ImGui::MenuItem(ICON_CI_FILE " Open File", "Ctrl + O"))
+            {
+                m_commands["OpenFile"]->execute();
             }
 
-            if (ImGui::MenuItem("Save")) {
-                    
+            if (ImGui::MenuItem(ICON_CI_ROOT_FOLDER_OPENED " Open Folder", "Ctrl + shift + O"))
+            {
+                m_commands["OpenFolder"]->execute();
+            }
+
+            if (ImGui::MenuItem(ICON_CI_SAVE " Save File", "Ctrl + S"))
+            {
             }
             ImGui::EndMenu();
         }
 
-        if (ImGui::BeginMenu("Edit")) {
-            if (ImGui::MenuItem("Cut")) {
-                
+        if (ImGui::BeginMenu("Edit"))
+        {
+            if (ImGui::MenuItem(ICON_CI_EDIT " Cut"))
+            {
             }
 
-            if (ImGui::MenuItem("Copy")) {
-               
+            if (ImGui::MenuItem(ICON_CI_COPY " Copy"))
+            {
             }
-            
-            if (ImGui::MenuItem("Paste")) {
-                   
+
+            if (ImGui::MenuItem(ICON_CI_LAYERS " Paste"))
+            {
             }
             ImGui::EndMenu();
         }
 
         ImGui::EndMainMenuBar();
-
     }
-    
+
     float menuBarHeight = ImGui::GetFontSize() + ImGui::GetStyle().FramePadding.y * 2.0f;
 
     ImGui::SetNextWindowPos(ImVec2(0, menuBarHeight));
-    ImGui::SetNextWindowSizeConstraints(ImVec2(Game::getInstance()->getWindowSize().getX() * 0.2, Game::getInstance()->getWindowSize().getY()), ImVec2(Game::getInstance()->getWindowSize().getX(), Game::getInstance()->getWindowSize().getY()));
-    ImGui::Begin("Explorer", nullptr, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoTitleBar);
+    //ImGui::SetNextWindowSizeConstraints(ImVec2(Game::getInstance()->getWindowSize().getX() * 0.2, Game::getInstance()->getWindowSize().getY()), ImVec2(Game::getInstance()->getWindowSize().getX(), Game::getInstance()->getWindowSize().getY()));
+    ImGui::Begin("WorkTab");
+    
+    if (ImGui::BeginTabBar("WorkTab##TabBar", ImGuiTabBarFlags_TabListPopupButton | ImGuiTabBarFlags_Reorderable))
+    {
+        if (ImGui::BeginTabItem("Explorer")) 
+        {
+            FileExplorer::getInstance()->displayTree(FileExplorer::getInstance()->getFolderPath());
+            ImGui::EndTabItem();
+        }
+        ImGui::EndTabBar();
+    }
 
-    ImGui::Text("</> Explorer");
-
+    ImGui::End();
+    
+    ImGui::SetNextWindowPos(ImVec2(Game::getInstance()->getWindowSize().getX() * 0.2, menuBarHeight));
+    ImGui::Begin("Viewports");
+    
+    if (ImGui::BeginTabBar("Viewports##TabBar", ImGuiTabBarFlags_TabListPopupButton | ImGuiTabBarFlags_Reorderable))
+    {
+        if (ImGui::BeginTabItem("Explorer")) 
+        {
+            FileExplorer::getInstance()->displayTree(FileExplorer::getInstance()->getFolderPath());
+            ImGui::EndTabItem();
+        }
+        ImGui::EndTabBar();
+    }
+    
     ImGui::End();
 
     ImGui::Render();
@@ -102,6 +135,13 @@ void WorkState::onMouseButtonUp(SDL_Event event)
 
 void WorkState::onKeyDown(SDL_Event event)
 {
+    if (InputHandler::getInstance()->isKeyDown(SDL_SCANCODE_LCTRL) || InputHandler::getInstance()->isKeyDown(SDL_SCANCODE_RCTRL))
+    {
+        if (InputHandler::getInstance()->isKeyDown(SDL_SCANCODE_O))
+        {
+            FileExplorer::getInstance()->openFile();
+        }
+    }
 }
 
 void WorkState::onKeyUp(SDL_Event event)

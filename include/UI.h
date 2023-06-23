@@ -13,7 +13,7 @@ public:
         return instancePtr;
     }
     bool showPopItems = false;
-
+    void setUpImGuiStyle();
 private:
     UI() {}
     static UI *instancePtr;

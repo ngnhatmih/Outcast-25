@@ -4,9 +4,10 @@
 [submodule "vendor/SDL_image"]
 	path = vendor/SDL_image
 	url = https://github.com/libsdl-org/SDL_image
-[submodule "vendor/imgui"]
-	path = vendor/imgui
-	url = https://github.com/ocornut/imgui
 [submodule "vendor/nativefiledialog"]
 	path = vendor/nativefiledialog
 	url = https://github.com/mlabbe/nativefiledialog
+[submodule "vendor/imgui"]
+	path = vendor/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking

@@ -29,7 +29,8 @@ public:
     void clean();
     void quit() { m_bRunning = 0; };
     bool running() { return m_bRunning; }
-
+    void setupDockspace();
+    
     SDL_Renderer *getRenderer() { return m_pRenderer; }
     SDL_Window *getWindow() { return m_pWindow; }
     Vector2D getWindowSize();
